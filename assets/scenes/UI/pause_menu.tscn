@@ -1,0 +1,86 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2kvg6ro15pb6"]
+
+[ext_resource type="Script" uid="uid://bto2wtxg1pa1a" path="res://scripts/pause_menu.gd" id="1"]
+[ext_resource type="Theme" uid="uid://cgbgoq077q22g" path="res://assets/themes/PFO_2.tres" id="2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bkwdj"]
+bg_color = Color(0.12, 0.12, 0.18, 0.8)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_3wr55"]
+font_size = 24
+font_color = Color(0.952941, 0.952941, 0.952941, 1)
+shadow_size = 2
+shadow_color = Color(0, 0, 0, 0.392157)
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 3
+layer = 10
+script = ExtResource("1")
+
+[node name="BackgroundDim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.392157)
+
+[node name="PausePanel" type="Panel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -125.0
+offset_right = 150.0
+offset_bottom = 125.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2")
+theme_override_styles/panel = SubResource("StyleBoxFlat_bkwdj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PausePanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="PausePanel/VBoxContainer"]
+layout_mode = 2
+text = "일시 정지"
+label_settings = SubResource("LabelSettings_3wr55")
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="PausePanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="ResumeButton" type="Button" parent="PausePanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "계속하기"
+
+[node name="RestartButton" type="Button" parent="PausePanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "레벨 다시 시작"
+
+[node name="MainMenuButton" type="Button" parent="PausePanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "메인 메뉴"
+
+[connection signal="pressed" from="PausePanel/VBoxContainer/ResumeButton" to="." method="_on_resume_button_pressed"]
+[connection signal="pressed" from="PausePanel/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="pressed" from="PausePanel/VBoxContainer/MainMenuButton" to="." method="_on_main_menu_button_pressed"]

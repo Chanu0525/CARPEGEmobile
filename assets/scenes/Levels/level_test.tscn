@@ -1,0 +1,76 @@
+[gd_scene load_steps=11 format=3 uid="uid://balo5rvy4al3p"]
+
+[ext_resource type="PackedScene" uid="uid://dig2jk27v2xrv" path="res://assets/scenes/misc/game_manager.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dhr4qohps2i0y" path="res://assets/scenes/misc/tilemap1.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://cnr73mjv4kkc5" path="res://assets/scenes/misc/playerV2.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://xg3u1beaxtqj" path="res://assets/scenes/killzone.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://c5ac6tkmflqwj" path="res://assets/scenes/objects/obj_platform.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://bj00qen3h50uk" path="res://assets/scenes/objects/obj_coin.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://uqw3rnwh3wcc" path="res://assets/scenes/objects/spike1.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://b3u2jc2ufsx2" path="res://assets/scenes/objects/spike1_bloody.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://rfwbsorqmks7" path="res://assets/scenes/parallax_bkg.tscn" id="9"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_sdmey"]
+
+[node name="level_test" type="Node2D"]
+
+[node name="GameManager" parent="." instance=ExtResource("1")]
+unique_name_in_owner = true
+
+[node name="Node" type="Node" parent="."]
+
+[node name="TileMap" parent="Node" instance=ExtResource("2")]
+layer_0/tile_data = PackedInt32Array(65535, 65536, 0, 0, 65536, 0, 1, 65536, 0, 65534, 65536, 0, 2, 196608, 3, 65533, 65536, 0, 65538, 65536, 1, 131074, 65536, 1, 131069, 65536, 1, 196605, 65536, 1, 131073, 65536, 1, 65537, 65536, 1, 65536, 65536, 1, 131071, 65536, 1, 131070, 65536, 1, 196606, 65536, 1, 196607, 65536, 1, 131072, 65536, 1, 3, 196608, 7, 65539, 65536, 1, 131075, 65536, 1, 7, 196608, 3, 65543, 65536, 1, 131079, 65536, 1, 131076, 65536, 1, 65540, 65536, 1, 4, 65536, 0, 6, 65536, 0, 65542, 65536, 1, 131078, 65536, 1, 131077, 65536, 1, 65541, 65536, 1, 5, 65536, 0, 65532, 65536, 0, 131068, 65536, 1, 196604, 65536, 1, 65531, 262144, 3, 65530, 65536, 4, 131067, 65536, 1, 131066, 65536, 1, 196602, 65536, 1, 196603, 65536, 1, 8, 196608, 7, 9, 262144, 1, 10, 196608, 1, 11, 65536, 0, 12, 65536, 0, 65544, 65536, 1, 131080, 65536, 1, 131081, 65536, 1, 65545, 65536, 1, 65546, 65536, 1, 131082, 65536, 1, 131083, 65536, 1, 65547, 65536, 1, 65548, 65536, 1, 131084, 65536, 1, 131085, 65536, 1, 65549, 65536, 1, 131086, 65536, 1, 65550, 65536, 1, 14, 262144, 1, 15, 196608, 1, 65551, 65536, 1, 131087, 65536, 1, 16, 65536, 0, 65552, 65536, 1, 131088, 65536, 1, 13, 65536, 0, -720902, 65536, 1, -655366, 65536, 1, -720901, 65536, 1, -655365, 65536, 1, -720900, 65536, 1, -655364, 65536, 1, -720899, 65536, 1, -655363, 65536, 1, -720898, 65536, 1, -655362, 65536, 1, -720897, 65536, 1, -655361, 65536, 1, -786432, 65536, 1, -720896, 65536, 1, -786431, 65536, 1, -720895, 65536, 1, -786430, 65536, 1, -720894, 65536, 1, -786429, 65536, 1, -720893, 65536, 1, -786428, 65536, 1, -720892, 65536, 1, -786427, 65536, 1, -720891, 65536, 1, -786426, 65536, 1, -720890, 65536, 1, -786425, 65536, 1, -720889, 65536, 1, -786424, 65536, 1, -720888, 65536, 1, -786423, 65536, 1, -720887, 65536, 1, -786422, 65536, 1, -720886, 65536, 1, -786421, 65536, 1, -720885, 65536, 1, -786420, 65536, 1, -720884, 65536, 1, -786419, 65536, 1, -720883, 65536, 1, -786418, 65536, 1, -720882, 65536, 1, -786417, 65536, 1, -720881, 65536, 1, -786416, 65536, 1, -720880, 65536, 1, -65527, 0, 0, -65521, 131072, 0, -65526, 131072, 0, -65522, 0, 0)
+
+[node name="player" parent="Node" instance=ExtResource("3")]
+
+[node name="world_border" parent="Node" instance=ExtResource("4")]
+position = Vector2(-83, 299)
+scale = Vector2(3.37916, 1.08898)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node/world_border"]
+scale = Vector2(0.554342, 0.965325)
+shape = SubResource("WorldBoundaryShape2D_sdmey")
+
+[node name="Platform" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -48)
+metadata/_edit_group_ = true
+
+[node name="Platform2" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -96)
+
+[node name="Platform3" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -144)
+
+[node name="Platform4" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -192)
+
+[node name="Platform5" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -238)
+
+[node name="Platform6" parent="Node" instance=ExtResource("5")]
+position = Vector2(32, -284)
+
+[node name="coins" type="Node" parent="."]
+
+[node name="coin" parent="coins" instance=ExtResource("6")]
+position = Vector2(96, -20)
+
+[node name="coin3" parent="coins" instance=ExtResource("6")]
+position = Vector2(64, -20)
+
+[node name="coin2" parent="coins" instance=ExtResource("6")]
+position = Vector2(128, -20)
+
+[node name="spikes" type="Node" parent="."]
+
+[node name="spike2" parent="spikes" instance=ExtResource("7")]
+position = Vector2(184, 0)
+
+[node name="spike3" parent="spikes" instance=ExtResource("8")]
+position = Vector2(200, 0)
+
+[node name="spike4" parent="spikes" instance=ExtResource("8")]
+position = Vector2(216, 0)
+
+[node name="ParallaxBKG" parent="." instance=ExtResource("9")]

@@ -1,0 +1,73 @@
+[gd_scene load_steps=7 format=3 uid="uid://bhkyd0ge7btib"]
+
+[ext_resource type="Script" path="res://scripts/bgm_manager.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://c73s0o0b3132n" path="res://assets/sounds/music/Chords.mp3" id="2"]
+
+[sub_resource type="Animation" id="Animation_u1x2u"]
+length = 0.0010000000474974513
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer2D:volume_db")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_hof3i"]
+resource_name = "audio_in"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer2D:volume_db")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [-80.0, -15.0]
+}
+
+[sub_resource type="Animation" id="Animation_xlltc"]
+resource_name = "audio_out"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer2D:volume_db")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -80.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6utq1"]
+_data = {
+"RESET": SubResource("Animation_u1x2u"),
+"audio_in": SubResource("Animation_hof3i"),
+"audio_out": SubResource("Animation_xlltc")
+}
+
+[node name="BGM_Manager" type="Node"]
+script = ExtResource("1")
+
+[node name="In_Or_Out" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_6utq1")
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2")
+autoplay = true
+
+[connection signal="ready" from="In_Or_Out" to="." method="_on_animation_player_ready"]
+[connection signal="ready" from="AudioStreamPlayer2D" to="." method="_on_audio_stream_player_2d_ready"]

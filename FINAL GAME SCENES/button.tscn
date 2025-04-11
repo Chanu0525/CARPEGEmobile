@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://bfjr00d1apin4"]
+
+[ext_resource type="Texture2D" uid="uid://dj3xjaj27dm11" path="res://assets/mobile_ui/left.png" id="1_0yx5e"]
+[ext_resource type="Texture2D" uid="uid://ytu17eeexccg" path="res://assets/mobile_ui/right.png" id="2_tewdm"]
+[ext_resource type="Texture2D" uid="uid://esj1d0nhkdpr" path="res://assets/mobile_ui/up.png" id="3_ulbdk"]
+[ext_resource type="Texture2D" uid="uid://crq7lwgw4051m" path="res://assets/mobile_ui/Stop.png" id="4_xahip"]
+
+[node name="button" type="CanvasLayer"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -74.0
+offset_bottom = -74.0
+grow_vertical = 0
+
+[node name="LEFT" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(6, -118)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("1_0yx5e")
+action = "move_left"
+
+[node name="RIGHT" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(186, -118)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("2_tewdm")
+action = "move_right"
+
+[node name="JUMP" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(469, -118)
+scale = Vector2(2, 2)
+texture_normal = ExtResource("3_ulbdk")
+action = "jump"
+
+[node name="STOP" type="TouchScreenButton" parent="HBoxContainer"]
+position = Vector2(557, -1054)
+scale = Vector2(0.145, 0.145)
+texture_normal = ExtResource("4_xahip")
+action = "ui_cancel"
