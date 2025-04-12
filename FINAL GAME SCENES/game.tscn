@@ -186,6 +186,7 @@ func _process(delta: float) -> void:
 [node name="Game" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_e5j0i")]
+WALK_SPEED = 110.0
 
 [node name="TileMap" parent="." instance=ExtResource("2_n0j7q")]
 tile_set = SubResource("TileSet_ryrav")

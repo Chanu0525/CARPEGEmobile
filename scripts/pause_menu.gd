@@ -13,6 +13,7 @@ func _on_resume_button_pressed():
 
 # 레벨 다시 시작 버튼
 func _on_restart_button_pressed():
+	queue_free()
 	# 게임 재개
 	get_tree().paused = false
 	# 현재 씬 다시 로드
@@ -20,6 +21,7 @@ func _on_restart_button_pressed():
 
 # 메인 메뉴 버튼
 func _on_main_menu_button_pressed():
+	queue_free()
 	# 게임 재개
 	get_tree().paused = false
 	# 메인 메뉴로 이동

@@ -16,4 +16,3 @@ func _on_ready():
 
 func _on_timer_timeout():
 	world_manager.level_end()
-

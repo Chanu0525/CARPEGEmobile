@@ -217,8 +217,10 @@ shape = SubResource("CapsuleShape2D_kh5vq")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -9)
 sprite_frames = SubResource("SpriteFrames_im62a")
-animation = &"idle"
+animation = &"run"
 autoplay = "idle"
+frame = 4
+frame_progress = 0.6874
 
 [node name="Camera2D" type="Camera2D" parent="."]
 offset = Vector2(0, 54.845)

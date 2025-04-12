@@ -1,1 +1,8 @@
+res://assets/scenes/UI/pause_menu.tscn
+res://scripts/pause_menu.gd
+res://FINAL GAME SCENES/Menu.tscn
+res://FINAL GAME SCENES/game.tscn
 res://assets/scenes/misc/playerV2.tscn
+res://assets/scenes/Levels/level_1.tscn
+res://export_presets.cfg
+res://scripts/cutscene2.gd
