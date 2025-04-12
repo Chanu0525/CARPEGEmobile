@@ -6,3 +6,12 @@ res://assets/scenes/misc/playerV2.tscn
 res://assets/scenes/Levels/level_1.tscn
 res://export_presets.cfg
 res://scripts/cutscene2.gd
+res://FINAL GAME SCENES/button.tscn
+res://scripts/bgm_manager.gd
+res://scripts/cutscene1.gd
+res://assets/scenes/objects/obj_platform.tscn
+res://assets/themes/PFO_2.tres
+res://assets/sounds/music/bgm_manager.tscn
+res://assets/themes/Pixel_Theme.tres
+res://assets/scenes/parallax_bkg.tscn
+res://assets/themes/pixelFontOnly.tres

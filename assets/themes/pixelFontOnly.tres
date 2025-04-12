@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=2 format=3 uid="uid://d0e22ch6fybk2"]
 
-[ext_resource type="FontFile" uid="uid://dydvx41xjnn3s" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://d0km5ihnwgpb8" path="res://assets/font/SourceHanSansKR-Bold.otf" id="1"]
 
 [resource]
 default_font = ExtResource("1")

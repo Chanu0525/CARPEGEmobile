@@ -1,5 +1,6 @@
-[gd_resource type="Theme" load_steps=5 format=3 uid="uid://cb4dblmuk8ftd"]
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://cb4dblmuk8ftd"]
 
+[ext_resource type="FontFile" uid="uid://d0km5ihnwgpb8" path="res://assets/font/SourceHanSansKR-Bold.otf" id="1_h82ra"]
 [ext_resource type="Texture2D" uid="uid://bo7d8315aupgh" path="res://assets/sprites/handmade/UI_Elements/UI_design.png" id="2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fvlo2"]
@@ -32,7 +33,7 @@ Button/constants/h_separation = 4
 Button/constants/icon_max_width = 0
 Button/constants/outline_size = 0
 Button/font_sizes/font_size = 16
-Button/fonts/font = null
+Button/fonts/font = ExtResource("1_h82ra")
 Button/styles/disabled = null
 Button/styles/focus = null
 Button/styles/hover = SubResource("StyleBoxTexture_fvlo2")

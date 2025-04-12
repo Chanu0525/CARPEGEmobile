@@ -21,11 +21,11 @@ LevelTrans="*res://assets/scenes/misc/level_trans.tscn"
 
 [display]
 
-window/size/viewport_width=640
-window/size/viewport_height=1136
-window/stretch/mode="viewport"
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/mode=2
+window/stretch/mode="canvas_items"
 window/stretch/aspect="keep_height"
-window/stretch/scale_mode="integer"
 
 [input]
 

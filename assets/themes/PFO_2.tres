@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=7 format=3 uid="uid://cgbgoq077q22g"]
 
-[ext_resource type="FontFile" uid="uid://dydvx41xjnn3s" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://d0km5ihnwgpb8" path="res://assets/font/SourceHanSansKR-Bold.otf" id="1"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vbges"]
 

@@ -11,30 +11,32 @@
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -74.0
-offset_bottom = -74.0
+offset_left = 18.0
+offset_top = -76.0
+offset_right = 18.0
+offset_bottom = -76.0
 grow_vertical = 0
 
 [node name="LEFT" type="TouchScreenButton" parent="HBoxContainer"]
-position = Vector2(6, -118)
+position = Vector2(31, -118)
 scale = Vector2(2, 2)
 texture_normal = ExtResource("1_0yx5e")
 action = "move_left"
 
 [node name="RIGHT" type="TouchScreenButton" parent="HBoxContainer"]
-position = Vector2(186, -118)
+position = Vector2(216, -118)
 scale = Vector2(2, 2)
 texture_normal = ExtResource("2_tewdm")
 action = "move_right"
 
 [node name="JUMP" type="TouchScreenButton" parent="HBoxContainer"]
-position = Vector2(469, -118)
+position = Vector2(512, -118)
 scale = Vector2(2, 2)
 texture_normal = ExtResource("3_ulbdk")
 action = "jump"
 
 [node name="STOP" type="TouchScreenButton" parent="HBoxContainer"]
-position = Vector2(557, -1054)
+position = Vector2(611, -1187)
 scale = Vector2(0.145, 0.145)
 texture_normal = ExtResource("4_xahip")
 action = "ui_cancel"
