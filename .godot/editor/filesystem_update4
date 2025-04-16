@@ -1,17 +1,17 @@
-res://assets/scenes/UI/pause_menu.tscn
-res://scripts/pause_menu.gd
 res://FINAL GAME SCENES/Menu.tscn
 res://FINAL GAME SCENES/game.tscn
 res://assets/scenes/misc/playerV2.tscn
-res://assets/scenes/Levels/level_1.tscn
-res://export_presets.cfg
-res://scripts/cutscene2.gd
-res://FINAL GAME SCENES/button.tscn
-res://scripts/bgm_manager.gd
-res://scripts/cutscene1.gd
-res://assets/scenes/objects/obj_platform.tscn
-res://assets/themes/PFO_2.tres
-res://assets/sounds/music/bgm_manager.tscn
-res://assets/themes/Pixel_Theme.tres
+res://assets/squishy_toggle/squishy_toggle.tscn
+res://assets/squishy_toggle/squishy_toggle.gd
+res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn
 res://assets/scenes/parallax_bkg.tscn
-res://assets/themes/pixelFontOnly.tres
+res://assets/scenes/main/Menu.tscn
+res://assets/scenes/main/game.tscn
+res://assets/scenes/main/button.tscn
+res://scripts/touch_screen_button.gd
+res://assets/scenes/UI/pause_menu.tscn
+res://assets/themes/PFO_2.tres
+res://assets/scenes/main/tutorial.tscn
+res://scripts/pause_menu.gd
+res://scripts/touch_screen_button_임시.gd
+res://scripts/touch_screen_button_임시용 .gd

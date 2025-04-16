@@ -1,8 +1,9 @@
-TouchScreenButton
-HBoxContainer
-CanvasLayer
 Control
 Node
+Label
+CanvasLayer
 TextEdit
+HBoxContainer
+TouchScreenButton
 Button
 TileMap

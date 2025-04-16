@@ -25,4 +25,4 @@ func _on_main_menu_button_pressed():
 	# 게임 재개
 	get_tree().paused = false
 	# 메인 메뉴로 이동
-	get_tree().change_scene_to_file("res://FINAL GAME SCENES/Menu.tscn")
+	get_tree().change_scene_to_file("res://assets/scenes/main/Menu.tscn")

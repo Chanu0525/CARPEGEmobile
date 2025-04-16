@@ -5,4 +5,4 @@ func _ready():
 	pressed.connect(_on_pressed)
 
 func _on_pressed():
-	get_tree().change_scene_to_file("res://FINAL GAME SCENES/game.tscn")  # 경로 수정 필수!
+	get_tree().change_scene_to_file("res://assets/scenes/main/tutorial.tscn")  # 경로 수정 필수!

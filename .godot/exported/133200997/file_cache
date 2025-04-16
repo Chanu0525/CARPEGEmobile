@@ -1,13 +1,13 @@
-res://assets/scenes/misc/playerV2.tscn::a2768184314515d631bbf08597e688ee::1744461848::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
+res://assets/scenes/misc/playerV2.tscn::a2768184314515d631bbf08597e688ee::1744824879::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
 res://assets/scenes/misc/tilemap1.tscn::639fb159c066238e76f22491a9442d4a::1743147106::res://.godot/exported/133200997/export-a74a7766e032e2852d48ef743fcd6da5-tilemap1.scn
-res://assets/scenes/objects/obj_platform.tscn::bae88b14a9036f43d8fae401e88f5782::1744461848::res://.godot/exported/133200997/export-b17da73d7da123e5830e25c7fa9ca460-obj_platform.scn
-res://assets/scenes/UI/pause_menu.tscn::57dfc13c8862f0ee7500a9ceb4a105d3::1744457996::res://.godot/exported/133200997/export-d0f4d57f07afe079190304bf7a845c66-pause_menu.scn
-res://assets/scenes/parallax_bkg.tscn::a45796d156f1ccb3bc8e432c7497b224::1744461848::res://.godot/exported/133200997/export-272ab112dbe582b4017a3efa97b7dabd-parallax_bkg.scn
-res://assets/sounds/music/bgm_manager.tscn::8cdcc326b74e802bda29e90d700d5c6e::1744461848::res://.godot/exported/133200997/export-60f60736c38cdde642f2e67b7df1e304-bgm_manager.scn
-res://assets/themes/PFO_2.tres::76e8789d174889f2b1e56c3d673562b6::1744461792::res://.godot/exported/133200997/export-bebe0ebc8189d341f724a712ad0bbb5e-PFO_2.res
-res://assets/themes/pixelFontOnly.tres::f7430ba606c07899c4b30100a5153cde::1743147106::res://.godot/exported/133200997/export-9237743ff3c0b70f8717ea0a4c58588c-pixelFontOnly.res
-res://assets/themes/Pixel_Theme.tres::8dcbc2a5a7c22633451521ccc281c307::1744461802::res://.godot/exported/133200997/export-f8f3b930bf8ed34b1dfbc46f3bb35cab-Pixel_Theme.res
-res://FINAL GAME SCENES/button.tscn::1ce2425cd7f4f392f69e10455cb782e4::1744461460::res://.godot/exported/133200997/export-fb8f27304f42d5658efe66eebfd8b522-button.scn
-res://FINAL GAME SCENES/game.tscn::18e73a64cba933fcc64e2d27c8aa0e98::1744461848::res://.godot/exported/133200997/export-d087283f87125dcfe09d3a16562e48ea-game.scn
+res://assets/scenes/objects/obj_platform.tscn::bae88b14a9036f43d8fae401e88f5782::1744461850::res://.godot/exported/133200997/export-b17da73d7da123e5830e25c7fa9ca460-obj_platform.scn
+res://assets/scenes/UI/pause_menu.tscn::bbe57c233d3349c8cc7849ced2b8ae6d::1744824457::res://.godot/exported/133200997/export-d0f4d57f07afe079190304bf7a845c66-pause_menu.scn
+res://assets/scenes/parallax_bkg.tscn::a45796d156f1ccb3bc8e432c7497b224::1744821656::res://.godot/exported/133200997/export-272ab112dbe582b4017a3efa97b7dabd-parallax_bkg.scn
+res://assets/sounds/music/bgm_manager.tscn::8cdcc326b74e802bda29e90d700d5c6e::1744461850::res://.godot/exported/133200997/export-60f60736c38cdde642f2e67b7df1e304-bgm_manager.scn
+res://assets/themes/PFO_2.tres::fc73c4d1a6f3ec4b7ff8005c8ed6131c::1744822272::res://.godot/exported/133200997/export-bebe0ebc8189d341f724a712ad0bbb5e-PFO_2.res
 res://default_bus_layout.tres::9962d89f198d109faa9098708a7222e1::1743147106::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
-res://FINAL GAME SCENES/Menu.tscn::39369ac09a2c44afd6ba14b58fc88920::1744461848::res://.godot/exported/133200997/export-a39287a69021198843b7f9c53d0c1ff4-Menu.scn
+res://assets/scenes/main/button.tscn::9d46f3d284711549e8254a85e6ea6312::1744822102::res://.godot/exported/133200997/export-55ba7883b8e1c5280781024a1f3b9b2e-button.scn
+res://assets/scenes/main/game.tscn::64d54c984aa53055fdf71adeb24eeba8::1744824889::res://.godot/exported/133200997/export-cf2f448476edd3f3cd68adf775b8d3fa-game.scn
+res://assets/scenes/main/Menu.tscn::82984fc39ece69d425f7941b4ce1df7b::1744824879::res://.godot/exported/133200997/export-a112d1ef38e1e4959b1368e7e8d6eb2e-Menu.scn
+res://assets/scenes/main/tutorial.tscn::bf69e7dd9075f411fd77d0f0c732f674::1744824876::res://.godot/exported/133200997/export-231084dd5c7b31e67497c878bba35d64-tutorial.scn
+res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn::6c20ea48f395df970efc8fbe5f4ca919::1744822279::res://.godot/exported/133200997/export-0d57c05e13d502ec858ff9995a36cc1a-squishy_toggle.scn
