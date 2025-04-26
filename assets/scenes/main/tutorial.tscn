@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dmft6jt5c2yk"]
+[gd_scene load_steps=17 format=3 uid="uid://dmft6jt5c2yk"]
 
 [ext_resource type="PackedScene" uid="uid://cnr73mjv4kkc5" path="res://assets/scenes/misc/playerV2.tscn" id="1_qctje"]
 [ext_resource type="PackedScene" uid="uid://dhr4qohps2i0y" path="res://assets/scenes/misc/tilemap1.tscn" id="2_hmdsm"]
@@ -10,6 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://ytu17eeexccg" path="res://assets/mobile_ui/right.png" id="8_1l76a"]
 [ext_resource type="Texture2D" uid="uid://dw1yjsn4448tr" path="res://assets/png/PLAY.png" id="9_tcnda"]
 [ext_resource type="Script" uid="uid://cdu5wcc77ohbk" path="res://scripts/touch_screen_button_임시용 .gd" id="10_tcnda"]
+[ext_resource type="Texture2D" uid="uid://bg434mdifhhny" path="res://assets/png/signs.png" id="11_vrd7e"]
+[ext_resource type="PackedScene" uid="uid://b56u2sno2petw" path="res://assets/scenes/objects/Ice_platform.tscn" id="13_4jxni"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcnda"]
 texture = ExtResource("3_6dsi4")
@@ -195,12 +197,12 @@ font_size = 506
 [node name="Tutorial" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_qctje")]
-position = Vector2(-130, 0)
+position = Vector2(-132, -2)
 WALK_SPEED = 110.0
 
 [node name="TileMap" parent="." instance=ExtResource("2_hmdsm")]
 tile_set = SubResource("TileSet_vrd7e")
-layer_0/tile_data = PackedInt32Array(65535, 65536, 4, 0, 65536, 4, 1, 65536, 4, 65534, 65536, 4, 2, 65536, 4, 65533, 65536, 4, 65538, 65536, 1, 131074, 65536, 1, 131069, 65536, 1, 196605, 65536, 1, 131073, 65536, 1, 65537, 65536, 1, 65536, 65536, 1, 131071, 65536, 1, 131070, 65536, 1, 196606, 65536, 1, 196607, 65536, 1, 131072, 65536, 1, 3, 65536, 4, 65539, 65536, 1, 131075, 65536, 1, 7, 65536, 4, 65543, 65536, 1, 131079, 65536, 1, 131076, 65536, 1, 65540, 65536, 1, 4, 65536, 4, 6, 65536, 4, 65542, 65536, 1, 131078, 65536, 1, 131077, 65536, 1, 65541, 65536, 1, 5, 65536, 4, 65532, 65536, 4, 131068, 65536, 1, 196604, 65536, 1, 65531, 65536, 4, 65530, 65536, 4, 131067, 65536, 1, 131066, 65536, 1, 196602, 65536, 1, 196603, 65536, 1, 8, 65536, 4, 9, 262144, 1, 10, 196608, 1, 11, 65536, 4, 12, 65536, 4, 65544, 65536, 1, 131080, 65536, 1, 131081, 65536, 1, 65545, 65536, 1, 65546, 65536, 1, 131082, 65536, 1, 131083, 65536, 1, 65547, 65536, 1, 65548, 65536, 1, 131084, 65536, 1, 131085, 65536, 1, 65549, 65536, 1, 131086, 65536, 1, 65550, 65536, 1, 65551, 65536, 1, 131087, 65536, 1, 16, 65536, 4, 65552, 65536, 1, 131088, 65536, 1, 13, 65536, 4, -65527, 0, 1, -131063, 0, 1, -196599, 0, 1, -262135, 0, 1, -327671, 0, 0, -262134, 131072, 1, -327670, 131072, 0, -196598, 131072, 1, -131062, 131072, 1, -65526, 131072, 1, 15, 65536, 4, 14, 65536, 4, 17, 65536, 4, 18, 65536, 4, 19, 65536, 4, 20, 65536, 4, 21, 65536, 4, 22, 65536, 4, 23, 65536, 4, 24, 65536, 4, 25, 65536, 4, 26, 65536, 4, 27, 65536, 4, 28, 65536, 4, 65553, 65536, 1, 131089, 65536, 1, 131090, 65536, 1, 131091, 65536, 1, 131092, 65536, 1, 65556, 65536, 1, 65555, 65536, 1, 65554, 65536, 1, 65557, 65536, 1, 65558, 65536, 1, 65559, 65536, 1, 65560, 65536, 1, 65561, 65536, 1, 65562, 65536, 1, 65563, 65536, 1, 65564, 65536, 1, 131100, 65536, 1, 131099, 65536, 1, 131098, 65536, 1, 131097, 65536, 1, 131096, 65536, 1, 131095, 65536, 1, 131094, 65536, 1, 131093, 65536, 1, 131065, 65536, 1, 131064, 65536, 1, 131063, 65536, 1, 131062, 65536, 1, 131061, 65536, 1, 131060, 65536, 1, 131059, 65536, 1, 131058, 65536, 1, 131057, 65536, 1, 131056, 65536, 1, 131055, 65536, 1, 131054, 65536, 1, 131053, 65536, 1, 131052, 65536, 1, 131051, 65536, 1, 196587, 65536, 1, 196588, 65536, 1, 196589, 65536, 1, 196590, 65536, 1, 196591, 65536, 1, 196592, 65536, 1, 196593, 65536, 1, 196594, 65536, 1, 196595, 65536, 1, 196596, 65536, 1, 196597, 65536, 1, 196598, 65536, 1, 196599, 65536, 1, 196600, 65536, 1, 196601, 65536, 1, 65529, 65536, 4, 65528, 65536, 4, 65527, 65536, 4, 65526, 65536, 4, 65525, 65536, 4, 65524, 65536, 4, 65523, 65536, 4, 65522, 65536, 4, 65521, 65536, 4, 65520, 65536, 4, 65519, 65536, 4, 65518, 65536, 4, 65517, 65536, 4, 65516, 65536, 4, 65515, 196608, 5, -21, 131072, 5, -65557, 131072, 5, -131093, 131072, 5, -196629, 131072, 5, -262165, 131072, 5, -327701, 131072, 5, -393237, 131072, 5, -458773, 131072, 5, -524309, 131072, 5, -589845, 131072, 4)
+layer_0/tile_data = PackedInt32Array(65535, 65536, 4, 0, 65536, 4, 1, 65536, 4, 65534, 65536, 4, 2, 65536, 4, 65533, 65536, 4, 65538, 65536, 1, 131074, 65536, 1, 131069, 65536, 1, 196605, 65536, 1, 131073, 65536, 1, 65537, 65536, 1, 65536, 65536, 1, 131071, 65536, 1, 131070, 65536, 1, 196606, 65536, 1, 196607, 65536, 1, 131072, 65536, 1, 3, 65536, 4, 65539, 65536, 1, 131075, 65536, 1, 7, 65536, 4, 65543, 65536, 1, 131079, 65536, 1, 131076, 65536, 1, 65540, 65536, 1, 4, 65536, 4, 6, 65536, 4, 65542, 65536, 1, 131078, 65536, 1, 131077, 65536, 1, 65541, 65536, 1, 5, 65536, 4, 65532, 65536, 4, 131068, 65536, 1, 196604, 65536, 1, 65531, 65536, 4, 65530, 65536, 4, 131067, 65536, 1, 131066, 65536, 1, 196602, 65536, 1, 196603, 65536, 1, 8, 65536, 4, 9, 262144, 1, 10, 196608, 1, 11, 65536, 4, 12, 65536, 4, 65544, 65536, 1, 131080, 65536, 1, 131081, 65536, 1, 65545, 65536, 1, 65546, 65536, 1, 131082, 65536, 1, 131083, 65536, 1, 65547, 65536, 1, 65548, 65536, 1, 131084, 65536, 1, 131085, 65536, 1, 65549, 65536, 1, 131086, 65536, 1, 65550, 65536, 1, 65551, 65536, 1, 131087, 65536, 1, 16, 65536, 4, 65552, 65536, 1, 131088, 65536, 1, 13, 65536, 4, -65527, 0, 1, -131063, 0, 1, -196599, 0, 1, -262135, 0, 1, -327671, 0, 0, -262134, 131072, 1, -327670, 131072, 0, -196598, 131072, 1, -131062, 131072, 1, -65526, 131072, 1, 15, 65536, 4, 14, 65536, 4, 17, 65536, 4, 18, 65536, 4, 19, 65536, 4, 20, 65536, 4, 21, 65536, 4, 22, 65536, 4, 23, 65536, 4, 24, 65536, 4, 25, 65536, 4, 26, 65536, 4, 27, 65536, 4, 28, 65536, 4, 65553, 65536, 1, 131089, 65536, 1, 131090, 65536, 1, 131091, 65536, 1, 131092, 65536, 1, 65556, 65536, 1, 65555, 65536, 1, 65554, 65536, 1, 65557, 65536, 1, 65558, 65536, 1, 65559, 65536, 1, 65560, 65536, 1, 65561, 65536, 1, 65562, 65536, 1, 65563, 65536, 1, 65564, 65536, 1, 131100, 65536, 1, 131099, 65536, 1, 131098, 65536, 1, 131097, 65536, 1, 131096, 65536, 1, 131095, 65536, 1, 131094, 65536, 1, 131093, 65536, 1, 131065, 65536, 1, 131064, 65536, 1, 131063, 65536, 1, 131062, 65536, 1, 131061, 65536, 1, 131060, 65536, 1, 131059, 65536, 1, 131058, 65536, 1, 131057, 65536, 1, 196593, 65536, 1, 196594, 65536, 1, 196595, 65536, 1, 196596, 65536, 1, 196597, 65536, 1, 196598, 65536, 1, 196599, 65536, 1, 196600, 65536, 1, 196601, 65536, 1, 65529, 65536, 4, 65528, 65536, 4, 65527, 65536, 4, 65526, 65536, 4, 65525, 65536, 4, 65524, 65536, 4, 65523, 65536, 4, 65522, 65536, 4, 65521, 196608, 5, -15, 131072, 5, -65551, 131072, 5, -131087, 131072, 5, -196623, 131072, 5, -262159, 131072, 5, -327695, 131072, 5, -393231, 131072, 5, -458767, 131072, 5, -524303, 131072, 5, -589839, 131072, 4, 65565, 65536, 5, 65566, 65536, 5, 65567, 65536, 5, 65568, 65536, 5, 65569, 65536, 5, 65570, 65536, 5, 65571, 65536, 5, 65572, 65536, 5, 65573, 65536, 5, 131109, 65536, 5, 131101, 65536, 5, 131102, 65536, 5, 131103, 65536, 5, 131104, 65536, 5, 131105, 65536, 5, 131106, 65536, 5, 131107, 65536, 5, 131108, 65536, 5, 131110, 65536, 5, 131111, 65536, 5, 131112, 65536, 5, 131113, 65536, 5, 131114, 65536, 5, 65574, 65536, 5, 65575, 65536, 5, 65576, 65536, 5, 65577, 65536, 5, 65578, 65536, 5, 65579, 65536, 5, 65580, 65536, 5, 65581, 65536, 5, 65582, 65536, 5, 65583, 65536, 5, 131115, 65536, 5, 131116, 65536, 5, 131117, 65536, 5, 131118, 65536, 5, 131119, 65536, 5, 30, 65536, 4, 31, 65536, 4, 32, 65536, 4, 33, 65536, 4, 34, 65536, 4, 35, 65536, 4, 36, 65536, 4, 37, 65536, 4, 38, 65536, 4, 39, 65536, 4, 40, 65536, 4, 41, 65536, 4, 42, 65536, 4, 43, 65536, 4, 44, 65536, 4, 45, 65536, 4, 46, 65536, 4, 47, 65536, 4, 29, 65536, 4)
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -225,25 +227,26 @@ scale = Vector2(0.05, 0.05)
 
 [node name="Label" type="Label" parent="Labels"]
 layout_mode = 0
-offset_left = 2120.0
-offset_top = -3360.0
-offset_right = 6457.0
-offset_bottom = -2128.0
+offset_left = 2020.0
+offset_top = -3560.0
+offset_right = 7566.0
+offset_bottom = -1013.0
 rotation = 0.00539874
 scale = Vector2(0.468635, 0.455798)
-text = "벽에서 점프 두번을
-하면 넘을 수 있어요!
+text = "방향키와
+점프키 두번을 누르면 벽을
+넘을 수 있어요!
 
-               x2"
+        +           x2"
 label_settings = SubResource("LabelSettings_b5ope")
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="Labels"]
 layout_mode = 0
-offset_left = -4536.25
+offset_left = -3876.25
 offset_top = -3480.0
-offset_right = 449.75
+offset_right = 1109.75
 offset_bottom = -1953.0
 rotation = 0.00539874
 scale = Vector2(0.468635, 0.455798)
@@ -256,9 +259,9 @@ vertical_alignment = 1
 
 [node name="Label3" type="Label" parent="Labels"]
 layout_mode = 0
-offset_left = -1240.0
+offset_left = -580.0
 offset_top = -3520.0
-offset_right = 3746.0
+offset_right = 4406.0
 offset_bottom = -1993.0
 rotation = 0.00539874
 scale = Vector2(0.468635, 0.455798)
@@ -267,30 +270,71 @@ label_settings = SubResource("LabelSettings_b5ope")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Content" type="Node" parent="."]
+[node name="Label4" type="Label" parent="Labels"]
+layout_mode = 0
+offset_left = 5400.0
+offset_top = -1700.0
+offset_right = 12065.0
+offset_bottom = -173.0
+rotation = 0.00539874
+scale = Vector2(0.357886, 0.349702)
+text = "얼음 타일을 밟으면 미끄러져요!"
+label_settings = SubResource("LabelSettings_b5ope")
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Up" type="Sprite2D" parent="Content"]
-position = Vector2(157, -126)
+[node name="Node2ds" type="Node" parent="."]
+
+[node name="Up" type="Sprite2D" parent="Node2ds"]
+position = Vector2(171, -127)
 scale = Vector2(0.35, 0.35)
 texture = ExtResource("6_6dsi4")
 
-[node name="Left" type="Sprite2D" parent="Content"]
-position = Vector2(-202.812, -123)
+[node name="Left" type="Sprite2D" parent="Node2ds"]
+position = Vector2(-169.812, -123)
 scale = Vector2(0.469, 0.469)
 texture = ExtResource("7_b5ope")
 
-[node name="Right" type="Sprite2D" parent="Content"]
-position = Vector2(-137.812, -123)
+[node name="Right" type="Sprite2D" parent="Node2ds"]
+position = Vector2(-104.812, -123)
 scale = Vector2(0.469, 0.469)
 texture = ExtResource("8_1l76a")
 
-[node name="Up2" type="Sprite2D" parent="Content"]
-position = Vector2(-4.00003, -123)
+[node name="Up2" type="Sprite2D" parent="Node2ds"]
+position = Vector2(29, -123)
 scale = Vector2(0.469, 0.469)
 texture = ExtResource("6_6dsi4")
 
-[node name="TouchScreenButton2" type="TouchScreenButton" parent="."]
-position = Vector2(359, -48)
+[node name="MoveRightSign" type="Sprite2D" parent="Node2ds"]
+z_index = 1
+position = Vector2(-109, 26)
+scale = Vector2(0.045, 0.045)
+texture = ExtResource("11_vrd7e")
+
+[node name="MoveRightSign2" type="Sprite2D" parent="Node2ds"]
+z_index = 1
+position = Vector2(45, 26)
+scale = Vector2(0.045, 0.045)
+texture = ExtResource("11_vrd7e")
+
+[node name="Right2" type="Sprite2D" parent="Node2ds"]
+position = Vector2(138, -127)
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("8_1l76a")
+
+[node name="TESTPLAY" type="TouchScreenButton" parent="."]
+position = Vector2(505, -48)
 scale = Vector2(0.115102, 0.0643134)
 texture_normal = ExtResource("9_tcnda")
 script = ExtResource("10_tcnda")
+
+[node name="Ice Platform" type="Node" parent="."]
+
+[node name="ice Platform" parent="Ice Platform" instance=ExtResource("13_4jxni")]
+position = Vector2(298, -15)
+
+[node name="ice Platform2" parent="Ice Platform" instance=ExtResource("13_4jxni")]
+position = Vector2(328, -15)
+
+[node name="ice Platform3" parent="Ice Platform" instance=ExtResource("13_4jxni")]
+position = Vector2(358, -15)

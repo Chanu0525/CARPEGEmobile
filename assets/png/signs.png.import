@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdai1bcy126e2"
-path="res://.godot/imported/cut4.png-df5126436a291147ced6ddb0db9ff953.ctex"
+uid="uid://bg434mdifhhny"
+path="res://.godot/imported/signs.png-08652e5e596927c9d65db387c1950bd2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/handmade/UI_Elements/cut4.png"
-dest_files=["res://.godot/imported/cut4.png-df5126436a291147ced6ddb0db9ff953.ctex"]
+source_file="res://assets/png/signs.png"
+dest_files=["res://.godot/imported/signs.png-08652e5e596927c9d65db387c1950bd2.ctex"]
 
 [params]
 

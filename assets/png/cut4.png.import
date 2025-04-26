@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwvf813sd0p1b"
-path="res://.godot/imported/plx_3.png-0b1d7389594cd966124ebbb723c69022.ctex"
+uid="uid://b4a0w6dicnm4n"
+path="res://.godot/imported/cut4.png-bd4a96e6ede68ae3078acd9b84881819.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/handmade/parallax(es)/plx_3.png"
-dest_files=["res://.godot/imported/plx_3.png-0b1d7389594cd966124ebbb723c69022.ctex"]
+source_file="res://assets/png/cut4.png"
+dest_files=["res://.godot/imported/cut4.png-bd4a96e6ede68ae3078acd9b84881819.ctex"]
 
 [params]
 

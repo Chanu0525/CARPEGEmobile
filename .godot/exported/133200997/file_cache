@@ -1,4 +1,4 @@
-res://assets/scenes/misc/playerV2.tscn::a2768184314515d631bbf08597e688ee::1744824879::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
+res://assets/scenes/misc/playerV2.tscn::a2768184314515d631bbf08597e688ee::1744825610::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
 res://assets/scenes/misc/tilemap1.tscn::639fb159c066238e76f22491a9442d4a::1743147106::res://.godot/exported/133200997/export-a74a7766e032e2852d48ef743fcd6da5-tilemap1.scn
 res://assets/scenes/objects/obj_platform.tscn::bae88b14a9036f43d8fae401e88f5782::1744461850::res://.godot/exported/133200997/export-b17da73d7da123e5830e25c7fa9ca460-obj_platform.scn
 res://assets/scenes/UI/pause_menu.tscn::bbe57c233d3349c8cc7849ced2b8ae6d::1744824457::res://.godot/exported/133200997/export-d0f4d57f07afe079190304bf7a845c66-pause_menu.scn
@@ -7,7 +7,7 @@ res://assets/sounds/music/bgm_manager.tscn::8cdcc326b74e802bda29e90d700d5c6e::17
 res://assets/themes/PFO_2.tres::fc73c4d1a6f3ec4b7ff8005c8ed6131c::1744822272::res://.godot/exported/133200997/export-bebe0ebc8189d341f724a712ad0bbb5e-PFO_2.res
 res://default_bus_layout.tres::9962d89f198d109faa9098708a7222e1::1743147106::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
 res://assets/scenes/main/button.tscn::9d46f3d284711549e8254a85e6ea6312::1744822102::res://.godot/exported/133200997/export-55ba7883b8e1c5280781024a1f3b9b2e-button.scn
-res://assets/scenes/main/game.tscn::64d54c984aa53055fdf71adeb24eeba8::1744824889::res://.godot/exported/133200997/export-cf2f448476edd3f3cd68adf775b8d3fa-game.scn
-res://assets/scenes/main/Menu.tscn::82984fc39ece69d425f7941b4ce1df7b::1744824879::res://.godot/exported/133200997/export-a112d1ef38e1e4959b1368e7e8d6eb2e-Menu.scn
+res://assets/scenes/main/game.tscn::64d54c984aa53055fdf71adeb24eeba8::1744825610::res://.godot/exported/133200997/export-cf2f448476edd3f3cd68adf775b8d3fa-game.scn
+res://assets/scenes/main/Menu.tscn::82984fc39ece69d425f7941b4ce1df7b::1744825675::res://.godot/exported/133200997/export-a112d1ef38e1e4959b1368e7e8d6eb2e-Menu.scn
 res://assets/scenes/main/tutorial.tscn::bf69e7dd9075f411fd77d0f0c732f674::1744824876::res://.godot/exported/133200997/export-231084dd5c7b31e67497c878bba35d64-tutorial.scn
 res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn::6c20ea48f395df970efc8fbe5f4ca919::1744822279::res://.godot/exported/133200997/export-0d57c05e13d502ec858ff9995a36cc1a-squishy_toggle.scn

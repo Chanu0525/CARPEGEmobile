@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744824832
+::res://::1745680978
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::1207650063905804703::1743147106::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1744461823::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1744825704::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7401811748371531304::1743147106::1743147106::1::::<><><>0<>0<>1ae9e743cf021136b474a9ef0e11e5cf<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile/TextFile::-1::1744390693::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1744825063::0::1::::<><><>0<>0<><>::
 ::res://assets/::1744821595
 ::res://assets/font/::1744823351
 SourceHanSansKR-Bold.otf::FontFile/FontFile::8935409528921800175::1744386517::1744823351::1::::<><><>0<>0<>ea40bed7dbce0f56109d1919e2365d6c<>res://.godot/imported/SourceHanSansKR-Bold.otf-1f21b7660facdafa581d9e5a94015334.fontdata::
@@ -12,25 +12,26 @@ left.png::CompressedTexture2D/CompressedTexture2D::7850176799086932726::17431471
 right.png::CompressedTexture2D/CompressedTexture2D::1725017882251185226::1743147106::1743147106::1::::<><><>0<>0<>82ce63535b75bf4ff3ee04432ab7678b<>res://.godot/imported/right.png-5a172da99d627f518a00f7401a849394.ctex::
 Stop.png::CompressedTexture2D/CompressedTexture2D::6001045506621070672::1743523916::1743523937::1::::<><><>0<>0<>5d8a0b69cf21c2990b56bb09f4f56d3e<>res://.godot/imported/Stop.png-1393eaa0cb55aa252a1eea8681aef92e.ctex::
 up.png::CompressedTexture2D/CompressedTexture2D::318507254492203707::1743147106::1743147106::1::::<><><>0<>0<>39ee2ba023394ebc42c894a19563c9e8<>res://.godot/imported/up.png-a2b44451da717147b9f225a9b21d8ebf.ctex::
-::res://assets/png/::1744823175
+::res://assets/png/::1745344571
 CARPEGE(summer version).png::CompressedTexture2D/CompressedTexture2D::860065365329922154::1744822074::1744822076::1::::<><><>0<>0<>835e8693760138f50e42ab7431489e0f<>res://.godot/imported/CARPEGE(summer version).png-5b1f8c33ec6dd0b28c12561a4f914969.ctex::
+cut4.png::CompressedTexture2D/CompressedTexture2D::4423455994706059103::1744388336::1744825339::1::::<><><>0<>0<>0e43151001640e91c0121a26ca45cf3f<>res://.godot/imported/cut4.png-bd4a96e6ede68ae3078acd9b84881819.ctex::
 menu_bkg.png::CompressedTexture2D/CompressedTexture2D::1609416562043700950::1744387041::1744387042::1::::<><><>0<>0<>90445184bedc286c69515990333088bc<>res://.godot/imported/menu_bkg.png-8196c92a3441b9db48fce214683f5a8f.ctex::
 PLAY.png::CompressedTexture2D/CompressedTexture2D::8758564679553428659::1744821843::1744821858::1::::<><><>0<>0<>a4c697e1e7c1b0f2dc7505aab4b37dae<>res://.godot/imported/PLAY.png-73bf3a4ac8c6b2b063451d2684e04fed.ctex::
 SETTING.png::CompressedTexture2D/CompressedTexture2D::4202219128033196217::1744821856::1744821858::1::::<><><>0<>0<>33225de3ce0d888e4c57d83d1512fa7b<>res://.godot/imported/SETTING.png-14505cc97df943f4fe2505600270ac93.ctex::
-::res://assets/scenes/::1744822008
-parallax_bkg.tscn::PackedScene/PackedScene::1204870758093448364::1744821656::0::1::::<><><>0<>0<><>::uid://qoo336kiwfy3::::res://assets/sprites/handmade/parallax(es)/plx_4.png<>uid://bwvf813sd0p1b::::res://assets/sprites/handmade/parallax(es)/plx_3.png<>uid://cfr8ymn8ra5pr::::res://assets/sprites/handmade/parallax(es)/plx_2.png<>uid://jwu7w0wmttim::::res://assets/sprites/handmade/parallax(es)/plx_1.png
-::res://assets/scenes/main/::1744824788
+signs.png::CompressedTexture2D/CompressedTexture2D::2869173199494795574::1745343626::1745343657::1::::<><><>0<>0<>c485079f8505971e53eb7d7afc2c394e<>res://.godot/imported/signs.png-08652e5e596927c9d65db387c1950bd2.ctex::
+::res://assets/scenes/::1745342838
+::res://assets/scenes/main/::1745677657
 button.tscn::PackedScene/PackedScene::2757022454294540399::1744822102::0::1::::<><><>0<>0<><>::uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://crq7lwgw4051m::::res://assets/mobile_ui/Stop.png
-game.tscn::PackedScene::733590226910496169::1744824788::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://c5ac6tkmflqwj::::res://assets/scenes/objects/obj_platform.tscn
-Menu.tscn::PackedScene::7927666109688455653::1744824838::0::1::::<><><>0<>0<><>::uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://dwihflvk1nekp::::res://scripts/touch_screen_button_임시.gd<>uid://mivfepmjshsk::::res://assets/png/CARPEGE(summer version).png<>uid://b04t617wfvfg8::::res://assets/png/SETTING.png<>uid://c5lintltlm2kl::::res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn
-tutorial.tscn::PackedScene::235678222041407798::1744824838::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://dwihflvk1nekp::::res://scripts/touch_screen_button_임시.gd
-::res://assets/scenes/misc/::1744824788
-playerV2.tscn::PackedScene::5722384347674247050::1744824788::0::1::::<><><>0<>0<><>::uid://eg5dtpc3rwt4::::res://scripts/player.gd<>uid://6jytcxmquob5::::res://assets/sprites/handmade/knight_2.png<>uid://c1owhtksqe7i1::::res://assets/sprites/handmade/knight_1.png<>uid://r6ra2dlrfl06::::res://assets/sounds/sfx/sfx_step3.mp3<>uid://d362wmjekpky6::::res://assets/sounds/sfx/sfx_jump2.wav<>uid://hlia0xb2b0f2::::res://assets/sounds/sfx/sfx_landed2.wav<>uid://dfikpwb1r5fbc::::res://assets/sounds/sfx/sfx_death2.wav
+game.tscn::PackedScene::733590226910496169::1745677657::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bybjruwsnulwg::::res://assets/sprites/brackeys/platforms.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://c5ac6tkmflqwj::::res://assets/scenes/objects/obj_platform.tscn
+Menu.tscn::PackedScene::7927666109688455653::1745677657::0::1::::<><><>0<>0<><>::uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://dwihflvk1nekp::::res://scripts/touch_screen_button.gd<>uid://mivfepmjshsk::::res://assets/png/CARPEGE(summer version).png<>uid://b04t617wfvfg8::::res://assets/png/SETTING.png<>uid://c5lintltlm2kl::::res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn
+tutorial.tscn::PackedScene/PackedScene::235678222041407798::1745344083::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://cdu5wcc77ohbk::::res://scripts/touch_screen_button_임시용 .gd<>uid://bg434mdifhhny::::res://assets/png/signs.png
+::res://assets/scenes/misc/::1745677657
+playerV2.tscn::PackedScene::5722384347674247050::1745677657::0::1::::<><><>0<>0<><>::uid://eg5dtpc3rwt4::::res://scripts/player.gd<>uid://6jytcxmquob5::::res://assets/sprites/handmade/knight_2.png<>uid://c1owhtksqe7i1::::res://assets/sprites/handmade/knight_1.png<>uid://r6ra2dlrfl06::::res://assets/sounds/sfx/sfx_step3.mp3<>uid://d362wmjekpky6::::res://assets/sounds/sfx/sfx_jump2.wav<>uid://hlia0xb2b0f2::::res://assets/sounds/sfx/sfx_landed2.wav<>uid://dfikpwb1r5fbc::::res://assets/sounds/sfx/sfx_death2.wav
 tilemap1.tscn::PackedScene/PackedScene::7687468490704441506::1743147106::0::1::::<><><>0<>0<><>::uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png
 ::res://assets/scenes/objects/::1744461850
 obj_platform.tscn::PackedScene/PackedScene::6878684484067813597::1744461850::0::1::::<><><>0<>0<><>::uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png
 ::res://assets/scenes/UI/::1744824457
-pause_menu.tscn::PackedScene::6689871349922766093::1744824457::0::1::::<><><>0<>0<><>::uid://bto2wtxg1pa1a::::res://scripts/pause_menu.gd<>uid://cgbgoq077q22g::::res://assets/themes/PFO_2.tres<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
+pause_menu.tscn::PackedScene/PackedScene::6689871349922766093::1744824457::0::1::::<><><>0<>0<><>::uid://bto2wtxg1pa1a::::res://scripts/pause_menu.gd<>uid://cgbgoq077q22g::::res://assets/themes/PFO_2.tres<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
 ::res://assets/scenes/UI/squishy_toggle/::1744822279
 squishy_toggle.gd::GDScript/GDScript::8730075477073494307::1744821534::0::1::::<>CheckButton<><>0<>0<><>::
 squishy_toggle.tscn::PackedScene/PackedScene::6901724798899703803::1744822279::0::1::::<><><>0<>0<><>::uid://dwm6ckga7cs7l::::res://assets/scenes/UI/squishy_toggle/squishy_toggle.gd<>uid://bvbsmc8whinmv::::res://assets/scenes/UI/squishy_toggle/visuals/godot_head.png<>uid://pqn5vi3wf2hd::::res://assets/scenes/UI/squishy_toggle/visuals/godot_mouth_nose.png<>uid://4olkc5cfh02h::::res://assets/scenes/UI/squishy_toggle/visuals/eyes_off.png<>uid://dfnb6bjb255sn::::res://assets/scenes/UI/squishy_toggle/visuals/eyes_on.png
@@ -63,7 +64,7 @@ platforms.png::CompressedTexture2D/CompressedTexture2D::4073595205479929038::174
 slime_green.png::CompressedTexture2D/CompressedTexture2D::3026164129740714572::1743147106::1743147106::1::::<><><>0<>0<>b5c2d3fab0a65a763ae9d8b8db39538a<>res://.godot/imported/slime_green.png-69c80adc4a72743ff3cf9ee1df12eee8.ctex::
 slime_purple.png::CompressedTexture2D/CompressedTexture2D::94894991606528098::1743147106::1743147106::1::::<><><>0<>0<>dbc2137a7b7d455030bab958375d184f<>res://.godot/imported/slime_purple.png-bd9d4519aa475d07dd42141df6a9241f.ctex::
 world_tileset.png::CompressedTexture2D/CompressedTexture2D::4026376435772692108::1743147106::1743147106::1::::<><><>0<>0<>8d4cd6dfc0217171a203d5b657ae6ecd<>res://.godot/imported/world_tileset.png-4c2d8a8e294bf1fb38e8be1cd7bec222.ctex::
-::res://assets/sprites/handmade/::1744819803
+::res://assets/sprites/handmade/::1745342841
 girl_1.png::CompressedTexture2D/CompressedTexture2D::201533465050894899::1744389452::1744390329::1::::<><><>0<>0<>23084074acf319a20aeb6bcce3fdf0ce<>res://.godot/imported/girl_1.png-68ce99c6ec68e24c8a5250c252367844.ctex::
 girl_2.png::CompressedTexture2D/CompressedTexture2D::7570589445760454314::1744459114::1744459155::1::::<><><>0<>0<>9e6a1394124790b1fe518f9fa7885837<>res://.godot/imported/girl_2.png-5969f1a0a5b9e3553c98bcd1c1a795d7.ctex::
 girl_3.png::CompressedTexture2D/CompressedTexture2D::6551317233949360838::1744546759::1744819803::1::::<><><>0<>0<>ee7faf71e6f0b424aa2b02257d0ff69d<>res://.godot/imported/girl_3.png-e6463f93f9aab532114fdb4145e57292.ctex::
@@ -71,23 +72,12 @@ icon.ico::OtherFile/OtherFile::-1::1743147106::0::1::::<><><>0<>0<><>::
 knight_1.png::CompressedTexture2D/CompressedTexture2D::6628001879161187850::1743147106::1743147106::1::::<><><>0<>0<>87abda69b535c441b33673957bd25a53<>res://.godot/imported/knight_1.png-c4e957a05308db8a4edf14e2cf5a5f5d.ctex::
 knight_2.png::CompressedTexture2D/CompressedTexture2D::2195924831620740696::1743147106::1743147106::1::::<><><>0<>0<>26fec090bdd8688409ad8ce7e9798911<>res://.godot/imported/knight_2.png-1a5dbc4960351dede4a5846ab67fe183.ctex::
 tilemap_1.png::CompressedTexture2D/CompressedTexture2D::8366571183872980298::1743147106::1743147106::1::::<><><>0<>0<>4ffe8b39d8d94730a02721ae3b910b23<>res://.godot/imported/tilemap_1.png-929d842c6abb0d7ca6eca82da09fc9ac.ctex::
-::res://assets/sprites/handmade/parallax(es)/::1743273286
-plx_1.png::CompressedTexture2D/CompressedTexture2D::678388583742090432::1743147106::1743147106::1::::<><><>0<>0<>35f7769ad8c2e529bd6a5689d24a46cb<>res://.godot/imported/plx_1.png-a0a79c5bf9ffbb394ef296706bee0bea.ctex::
-plx_2.png::CompressedTexture2D/CompressedTexture2D::5160927179095172087::1743147106::1743147106::1::::<><><>0<>0<>14fd5cfb4d62dd9eb7d9aa4c956b6da4<>res://.godot/imported/plx_2.png-ba3ab19d243f7ac13aa84f2603e39753.ctex::
-plx_3.png::CompressedTexture2D/CompressedTexture2D::3974291102412237545::1743147106::1743147106::1::::<><><>0<>0<>8e076a83ec74b16078c3bcbed214cac8<>res://.godot/imported/plx_3.png-0b1d7389594cd966124ebbb723c69022.ctex::
-plx_4.png::CompressedTexture2D/CompressedTexture2D::1152824345902079760::1743147106::1743147106::1::::<><><>0<>0<>d859b35c1162785862fcd44b885fb2fd<>res://.godot/imported/plx_4.png-213ccdb6b2fc7f2ef1bcd5843fd130ee.ctex::
-::res://assets/sprites/handmade/UI_Elements/::1743273286
-cut1.png::CompressedTexture2D/CompressedTexture2D::5237831724983098417::1743147106::1743147106::1::::<><><>0<>0<>e75d79212a8f6bd185d1a03851ba10dc<>res://.godot/imported/cut1.png-e80fb1875bf0574db29bbd21a129c6ca.ctex::
-cut2.png::CompressedTexture2D/CompressedTexture2D::6902681358251111189::1743147106::1743147106::1::::<><><>0<>0<>66e494715620f31f6ccec3f337259c50<>res://.godot/imported/cut2.png-95f1c3543217cf484506c2f490f59266.ctex::
-cut4.png::CompressedTexture2D/CompressedTexture2D::2597519437930108311::1743147106::1743147106::1::::<><><>0<>0<>5ad65c47d3ec22276f23d8a8ef0a4a97<>res://.godot/imported/cut4.png-df5126436a291147ced6ddb0db9ff953.ctex::
-menu_bkg.png::CompressedTexture2D/CompressedTexture2D::1153292436030552212::1743147106::1743147106::1::::<><><>0<>0<>b5beba341804645539c9b48109d890ca<>res://.godot/imported/menu_bkg.png-b0afb1e785d6f703547857e389e43af2.ctex::
-uibox_x4.png::CompressedTexture2D/CompressedTexture2D::5389673029685213536::1743147106::1743147106::1::::<><><>0<>0<>110d2c1cf0bf93fde9162dba167716e7<>res://.godot/imported/uibox_x4.png-4deb898f970e1bf64427756b0dfad38c.ctex::
-UI_design.png::CompressedTexture2D/CompressedTexture2D::3435367177115213423::1743147106::1743147106::1::::<><><>0<>0<>2c81789fad9fed2a873d3f85e8165fb7<>res://.godot/imported/UI_design.png-86d8f0bbf314cef14d7fbcedc81759f7.ctex::
+::res://assets/sprites/handmade/UI_Elements/::1745343155
 ::res://assets/themes/::1744822272
 PFO_2.tres::Theme/Theme::5196428990530793544::1744822272::0::1::::<><><>0<>0<><>::uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
-::res://scripts/::1744824832
+::res://scripts/::1744824876
 bgm_manager.gd::GDScript/GDScript::6146494719269288079::1744461823::0::1::::<>Node<><>0<>0<><>::
-pause_menu.gd::GDScript::3750589681425257484::1744824457::0::1::::<>CanvasLayer<><>0<>0<><>::
+pause_menu.gd::GDScript/GDScript::3750589681425257484::1744824457::0::1::::<>CanvasLayer<><>0<>0<><>::
 player.gd::GDScript/GDScript::294969529485898307::1743523200::0::1::::<>CharacterBody2D<><>0<>0<><>::
-touch_screen_button_임시.gd::GDScript::8720366191754742779::1744824783::0::1::::<>TouchScreenButton<><>0<>0<><>::
-touch_screen_button_임시용 .gd::GDScript::5026556360263960248::1744824722::0::1::::<>TouchScreenButton<><>0<>0<><>::
+touch_screen_button.gd::GDScript/GDScript::8720366191754742779::1744824876::0::1::::<>TouchScreenButton<><>0<>0<><>::
+touch_screen_button_임시용 .gd::GDScript/GDScript::5026556360263960248::1744824866::0::1::::<>TouchScreenButton<><>0<>0<><>::

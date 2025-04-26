@@ -5,6 +5,15 @@ extends CharacterBody2D
 @onready var ASP_Jump = $ASP_Jumping
 @onready var ASP_Death = $ASP_Death
 @onready var ASP_Landed = $ASP_Landed
+@onready var ray_floor: RayCast2D = $RayCastFloor
+var on_ice: bool = false
+@export var ice_acceleration: float = 300.0    # 얼음 위에서 속도 변화량
+@export var ice_friction: float     = 20.0     # 얼음 위에서 감속량
+@export var ice_max_speed_multiplier: float = 1.2  # 얼음 위 최대 속도 배율
+
+var was_on_ice = false
+var ice_grace_time = 0.2  # 얼음 효과를 유지할 여유시간 (초)
+var ice_timer = 0.0  # 현재 남은 여유시간
 
 @export var coyote_time = 0.1
 @export var grav_mult = 1
@@ -198,32 +207,68 @@ func _physics_process(delta):
 		if times_landed >= 1:
 			animated_sprite_2d.play("jump")
 			animated_sprite_2d.speed_scale = jump_animation_speed  # 점프 애니메이션 속도 조절
-	
-	#applies movement
-	if direction:
-		velocity.x = direction * current_speed  # 걷기/달리기에 따라 속도 적용
-		
-		#new walking handler
-		if is_on_floor():
-			if walk_time.is_stopped():
-				print("WALK SFX LOOP CONFIRMED")
-				
-				# 달리기 상태에 따라 소리 pitch 조절 (선택 사항)
-				if is_sprinting:
-					ASP_Walk.pitch_scale = randf_range(1.1, 1.5)  # 달릴 때 더 높은 pitch
-				else:
-					ASP_Walk.pitch_scale = randf_range(0.9, 1.1)  # 걸을 때 낮은 pitch
-					
-				ASP_Walk.play()
-				# 달리기 상태에 따라 발소리 간격 조절 (선택 사항)
-				if is_sprinting:
-					walk_time.start(0.2)  # 달릴 때 빠른 발소리
-				else:
-					walk_time.start(0.4)  # 걸을 때 느린 발소리
 			
+# 바닥에 무언가 있으면
+	if ray_floor.is_colliding():
+		var col = ray_floor.get_collider()
+		if col is Node and col.is_in_group("ice"):
+			on_ice = true
+			was_on_ice = true
+			ice_timer = ice_grace_time
+		else:
+			on_ice = false
 	else:
-		velocity.x = move_toward(velocity.x, 0, current_speed)
+		if ice_timer > 0:
+			ice_timer -= delta
+			on_ice = true
+		else:
+			on_ice = false
+			
+	# 얼음 위 슬라이딩 로직
+	if is_on_floor():
+		if on_ice:
+			var ice_max_speed = RUN_SPEED * ice_max_speed_multiplier  # 얼음 최대 속도 계산
+			var target = direction * ice_max_speed
+			if direction != 0:
+				velocity.x = move_toward(velocity.x, target, ice_acceleration * delta)
+			else:
+				velocity.x = move_toward(velocity.x, 0, ice_friction * delta)
+		elif was_on_ice:
+			velocity.x = move_toward(velocity.x, 0, ice_friction * delta)
+			if abs(velocity.x) < 1.0:
+				was_on_ice = false
+		else:
+			if direction:
+				velocity.x = direction * current_speed
+			else:
+				velocity.x = move_toward(velocity.x, 0, current_speed)
+
+	else:
+		# 일반 바닥 또는 공중일 때 기존 이동 로직
+		if direction:
+			velocity.x = direction * current_speed  # 걷기/달리기에 따라 속도 적용
+			
+			# --- 여기부터 원본 Walk SFX 처리 ---
+			if is_on_floor():
+				if walk_time.is_stopped():
+					print("WALK SFX LOOP CONFIRMED")
+					
+					if is_sprinting:
+						ASP_Walk.pitch_scale = randf_range(1.1, 1.5)
+					else:
+						ASP_Walk.pitch_scale = randf_range(0.9, 1.1)
+						
+					ASP_Walk.play()
+					
+					if is_sprinting:
+						walk_time.start(0.2)
+				else:
+					walk_time.start(0.4)
+			# --- 여기까지 원본 Walk SFX 처리 ---
+		else:
+			velocity.x = move_toward(velocity.x, 0, current_speed)
 	
+		
 	move_and_slide()
 	
 	# 스테미나 바 업데이트
