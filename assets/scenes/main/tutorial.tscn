@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://dw1yjsn4448tr" path="res://assets/png/PLAY.png" id="9_tcnda"]
 [ext_resource type="Script" uid="uid://cdu5wcc77ohbk" path="res://scripts/touch_screen_button_임시용 .gd" id="10_tcnda"]
 [ext_resource type="Texture2D" uid="uid://bg434mdifhhny" path="res://assets/png/signs.png" id="11_vrd7e"]
-[ext_resource type="PackedScene" uid="uid://b56u2sno2petw" path="res://assets/scenes/objects/Ice_platform.tscn" id="13_4jxni"]
+[ext_resource type="PackedScene" uid="uid://b56u2sno2petw" path="res://assets/scenes/objects/ice_platform.tscn" id="13_4jxni"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcnda"]
 texture = ExtResource("3_6dsi4")

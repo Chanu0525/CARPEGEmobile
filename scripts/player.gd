@@ -5,11 +5,11 @@ extends CharacterBody2D
 @onready var ASP_Jump = $ASP_Jumping
 @onready var ASP_Death = $ASP_Death
 @onready var ASP_Landed = $ASP_Landed
-@onready var ray_floor: RayCast2D = $RayCastFloor
+
 var on_ice: bool = false
-@export var ice_acceleration: float = 300.0    # 얼음 위에서 속도 변화량
-@export var ice_friction: float     = 20.0     # 얼음 위에서 감속량
-@export var ice_max_speed_multiplier: float = 1.2  # 얼음 위 최대 속도 배율
+@export var ice_acceleration: float = 200.0    # 얼음 위에서 속도 변화량
+@export var ice_friction: float     = 50.0     # 얼음 위에서 감속량
+@export var ice_max_speed_multiplier: float = 1.15  # 얼음 위 최대 속도 배율
 
 var was_on_ice = false
 var ice_grace_time = 0.2  # 얼음 효과를 유지할 여유시간 (초)
@@ -137,7 +137,6 @@ func _physics_process(delta):
 		
 	#handles landing sfx
 	if not was_on_floor and is_on_floor():
-		print("JUST LANDED!")
 		times_landed += 1
 		if times_landed >= 2:
 			ASP_Landed.play()
@@ -207,22 +206,21 @@ func _physics_process(delta):
 		if times_landed >= 1:
 			animated_sprite_2d.play("jump")
 			animated_sprite_2d.speed_scale = jump_animation_speed  # 점프 애니메이션 속도 조절
-			
-# 바닥에 무언가 있으면
-	if ray_floor.is_colliding():
-		var col = ray_floor.get_collider()
-		if col is Node and col.is_in_group("ice"):
-			on_ice = true
-			was_on_ice = true
-			ice_timer = ice_grace_time
-		else:
-			on_ice = false
+				
+	on_ice = false
+	if is_on_floor():
+		for i in get_slide_collision_count():
+			var collision = get_slide_collision(i)
+			if collision.get_normal().dot(Vector2.UP) > 0.7:  # 바닥 판정
+				if collision.get_collider().is_in_group("ice"):
+					on_ice = true
+					ice_timer = ice_grace_time
+					break
+	elif ice_timer > 0:
+		ice_timer -= delta
+		on_ice = true
 	else:
-		if ice_timer > 0:
-			ice_timer -= delta
-			on_ice = true
-		else:
-			on_ice = false
+		on_ice = false
 			
 	# 얼음 위 슬라이딩 로직
 	if is_on_floor():

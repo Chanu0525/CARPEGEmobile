@@ -1,8 +1,7 @@
-res://assets/scenes/main/game.tscn
-res://assets/scenes/misc/playerV2.tscn
 res://assets/scenes/main/Menu.tscn
+res://assets/scenes/main/game.tscn
 res://assets/scenes/main/tutorial.tscn
+res://assets/scenes/misc/playerV2.tscn
 res://scripts/player.gd
-res://assets/scenes/objects/ice_platform.tscn
-res://assets/scenes/objects/Ice_platform.tscn
-res://assets/scenes/main/WindArea.gd
+res://assets/scenes/main/servey_button.gd
+res://scripts/touch_screen_button.gd
