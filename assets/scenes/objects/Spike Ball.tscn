@@ -1,0 +1,76 @@
+[gd_scene load_steps=8 format=3 uid="uid://c8n8fnv3vuyb4"]
+
+[ext_resource type="Script" uid="uid://d3vklbe1jn0k0" path="res://scripts/spike_ball.gd" id="1_nlqef"]
+[ext_resource type="Texture2D" uid="uid://curk50y1yvms1" path="res://assets/sprites/Spiked Ball/Chain.png" id="1_w03m2"]
+[ext_resource type="Texture2D" uid="uid://drne6mr0uft6l" path="res://assets/sprites/Spiked Ball/Spiked Ball.png" id="2_nlqef"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nw6ta"]
+radius = 13.0
+
+[sub_resource type="Animation" id="Animation_nlqef"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_w03m2"]
+resource_name = "SPIKE"
+length = 2.0
+loop_mode = 1
+step = 0.0166667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [-3.14159, 3.14159]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nw6ta"]
+_data = {
+&"RESET": SubResource("Animation_nlqef"),
+&"SPIKE": SubResource("Animation_w03m2")
+}
+
+[node name="Spike_ball" type="AnimatableBody2D"]
+script = ExtResource("1_nlqef")
+
+[node name="Chain" type="Sprite2D" parent="."]
+position = Vector2(0, 9)
+texture = ExtResource("1_w03m2")
+
+[node name="Chain2" type="Sprite2D" parent="."]
+position = Vector2(0, 27)
+texture = ExtResource("1_w03m2")
+
+[node name="Chain3" type="Sprite2D" parent="."]
+position = Vector2(0, 44)
+texture = ExtResource("1_w03m2")
+
+[node name="SpikedBall" type="Sprite2D" parent="."]
+position = Vector2(0, 70)
+rotation = 6.28319
+texture = ExtResource("2_nlqef")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 70)
+shape = SubResource("CircleShape2D_nw6ta")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_nw6ta")
+}

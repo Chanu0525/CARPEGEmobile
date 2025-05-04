@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Short Platformer"
+config/name="CARPEGE"
 run/main_scene="uid://dk7hrc8n25asb"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"

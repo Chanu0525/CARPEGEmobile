@@ -54,7 +54,7 @@ scale = Vector2(0.329, 0.347)
 texture_normal = ExtResource("5_8p5ov")
 
 [node name="Youtube" type="LinkButton" parent="CanvasLayer/HBoxContainer/YoutubeVideoButton"]
-anchors_preset = -1
+anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
