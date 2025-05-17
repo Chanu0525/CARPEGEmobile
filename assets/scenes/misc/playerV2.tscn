@@ -224,9 +224,8 @@ frame = 4
 frame_progress = 0.6874
 
 [node name="Camera2D" type="Camera2D" parent="."]
-offset = Vector2(0, 54.845)
 zoom = Vector2(4, 4)
-limit_bottom = 45
+limit_bottom = 90
 limit_smoothed = true
 position_smoothing_enabled = true
 

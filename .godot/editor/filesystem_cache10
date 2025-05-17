@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746329856
+::res://::1747484399
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::1207650063905804703::1743147106::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1745696537::0::1::::<><><>0<>0<><>::
+exit_door.gd::GDScript/GDScript::1121864407624490271::1747289010::0::1::::<>Area2D<><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1746329876::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7401811748371531304::1743147106::1743147106::1::::<><><>0<>0<>1ae9e743cf021136b474a9ef0e11e5cf<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1745734042::0::1::::<><><>0<>0<><>::
 ::res://assets/::1745735702
@@ -12,30 +13,36 @@ left.png::CompressedTexture2D/CompressedTexture2D::7850176799086932726::17431471
 right.png::CompressedTexture2D/CompressedTexture2D::1725017882251185226::1743147106::1743147106::1::::<><><>0<>0<>82ce63535b75bf4ff3ee04432ab7678b<>res://.godot/imported/right.png-5a172da99d627f518a00f7401a849394.ctex::
 Stop.png::CompressedTexture2D/CompressedTexture2D::6001045506621070672::1743523916::1743523937::1::::<><><>0<>0<>5d8a0b69cf21c2990b56bb09f4f56d3e<>res://.godot/imported/Stop.png-1393eaa0cb55aa252a1eea8681aef92e.ctex::
 up.png::CompressedTexture2D/CompressedTexture2D::318507254492203707::1743147106::1743147106::1::::<><><>0<>0<>39ee2ba023394ebc42c894a19563c9e8<>res://.godot/imported/up.png-a2b44451da717147b9f225a9b21d8ebf.ctex::
-::res://assets/png/::1745944807
+::res://assets/png/::1747485094
+Background.png::CompressedTexture2D::2429181432768933021::1747402078::1747484400::1::::<><><>0<>0<>e49dc20ea142d4bf860c6297b12c43e3<>res://.godot/imported/Background.png-ae7f058ebe57eff9b64c3e72b8b9c4ec.ctex::
+BackgroundCut.png::CompressedTexture2D::254771731714794814::1747485094::1747485095::1::::<><><>0<>0<>c70cfb5768078afce6a4b05d6bba5467<>res://.godot/imported/BackgroundCut.png-22e5c4bc41d30f557ca5fb5e27c7bf40.ctex::
 CARPEGE(summer version).png::CompressedTexture2D/CompressedTexture2D::860065365329922154::1744822074::1744822076::1::::<><><>0<>0<>835e8693760138f50e42ab7431489e0f<>res://.godot/imported/CARPEGE(summer version).png-5b1f8c33ec6dd0b28c12561a4f914969.ctex::
-menu_bkg.png::CompressedTexture2D/CompressedTexture2D::1609416562043700950::1744387041::1744387042::1::::<><><>0<>0<>90445184bedc286c69515990333088bc<>res://.godot/imported/menu_bkg.png-8196c92a3441b9db48fce214683f5a8f.ctex::
 phone_icon.png::CompressedTexture2D/CompressedTexture2D::8612843678114835178::1745944806::1745944807::1::::<><><>0<>0<>63e87dbdbd8b946db4386a15f730d827<>res://.godot/imported/phone_icon.png-7792ef4eb7a1e8faf8bf3f49c796bfdb.ctex::
 PLAY.png::CompressedTexture2D/CompressedTexture2D::8758564679553428659::1744821843::1744821858::1::::<><><>0<>0<>a4c697e1e7c1b0f2dc7505aab4b37dae<>res://.godot/imported/PLAY.png-73bf3a4ac8c6b2b063451d2684e04fed.ctex::
+PlayButton.png::CompressedTexture2D/CompressedTexture2D::3027956384081671982::1747484345::1747484345::1::::<><><>0<>0<>d14fd005cb0f906f6f91ee8c5a578f8b<>res://.godot/imported/PlayButton.png-08601d12f26023b30fdc950481208bdb.ctex::
+ServeyButton.png::CompressedTexture2D::3791342068322355115::1747484940::1747484940::1::::<><><>0<>0<>fb59216d60b58bae446cfb856dd2575d<>res://.godot/imported/ServeyButton.png-16b7e806bb3b7c6c539cddf61363dd71.ctex::
 SETTING.png::CompressedTexture2D/CompressedTexture2D::4202219128033196217::1744821856::1744821858::1::::<><><>0<>0<>33225de3ce0d888e4c57d83d1512fa7b<>res://.godot/imported/SETTING.png-14505cc97df943f4fe2505600270ac93.ctex::
 signs.png::CompressedTexture2D/CompressedTexture2D::2869173199494795574::1745343626::1745343657::1::::<><><>0<>0<>c485079f8505971e53eb7d7afc2c394e<>res://.godot/imported/signs.png-08652e5e596927c9d65db387c1950bd2.ctex::
 survey.png::CompressedTexture2D/CompressedTexture2D::6130727887739613785::1745731465::1745731466::1::::<><><>0<>0<>4ab2f5a2af8e2b3e8542f5ea60a5187f<>res://.godot/imported/survey.png-dbd3440b7af356a96bddef4ce38a63e8.ctex::
+YoutubeButton.png::CompressedTexture2D::6848697989488434979::1747484940::1747484940::1::::<><><>0<>0<>eb4bf80cca84d473e5fc900bd056cc25<>res://.godot/imported/YoutubeButton.png-af8ebe72aa42662d6cfbe32eeb7ebe8a.ctex::
 YoutubeVideo.png::CompressedTexture2D/CompressedTexture2D::8674163287178064446::1745732029::1745732029::1::::<><><>0<>0<>c2205dc248d2f703e54407f575b00fa1<>res://.godot/imported/YoutubeVideo.png-edd6f6e287814f09d78c85abacc0ba6b.ctex::
 ::res://assets/scenes/::1745342838
-::res://assets/scenes/main/::1746245285
-button.tscn::PackedScene/PackedScene::2757022454294540399::1744822102::0::1::::<><><>0<>0<><>::uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://crq7lwgw4051m::::res://assets/mobile_ui/Stop.png
-game.tscn::PackedScene::733590226910496169::1746245234::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bxmn3jmvoel3i::::res://assets/sprites/brackeys/world_tileset.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://b56u2sno2petw::::res://assets/scenes/objects/ice_platform.tscn<>uid://c8n8fnv3vuyb4::::res://assets/scenes/objects/Spike Ball.tscn
-Menu.tscn::PackedScene::7927666109688455653::1746245285::0::1::::<><><>0<>0<><>::uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://dwihflvk1nekp::::res://scripts/touch_screen_button.gd<>uid://mivfepmjshsk::::res://assets/png/CARPEGE(summer version).png<>uid://ctl1gsv8afr10::::res://assets/png/survey.png<>uid://dvt3g4ssh6jso::::res://assets/png/YoutubeVideo.png<>uid://c5lintltlm2kl::::res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn
-tutorial.tscn::PackedScene::235678222041407798::1746245237::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://dw1yjsn4448tr::::res://assets/png/PLAY.png<>uid://cdu5wcc77ohbk::::res://scripts/touch_screen_button_임시용 .gd<>uid://bg434mdifhhny::::res://assets/png/signs.png<>uid://b56u2sno2petw::::res://assets/scenes/objects/ice_platform.tscn<>uid://duyejoiijj8eg::::res://assets/png/phone_icon.png
-::res://assets/scenes/misc/::1745729555
-playerV2.tscn::PackedScene/PackedScene::5722384347674247050::1745729555::0::1::::<><><>0<>0<><>::uid://eg5dtpc3rwt4::::res://scripts/player.gd<>uid://6jytcxmquob5::::res://assets/sprites/handmade/knight_2.png<>uid://c1owhtksqe7i1::::res://assets/sprites/handmade/knight_1.png<>uid://r6ra2dlrfl06::::res://assets/sounds/sfx/sfx_step3.mp3<>uid://d362wmjekpky6::::res://assets/sounds/sfx/sfx_jump2.wav<>uid://hlia0xb2b0f2::::res://assets/sounds/sfx/sfx_landed2.wav<>uid://dfikpwb1r5fbc::::res://assets/sounds/sfx/sfx_death2.wav
+::res://assets/scenes/main/::1747485076
+button.tscn::PackedScene/PackedScene::2757022454294540399::1746789892::0::1::::<><><>0<>0<><>::uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://crq7lwgw4051m::::res://assets/mobile_ui/Stop.png
+game.tscn::PackedScene::733590226910496169::1747485076::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bxmn3jmvoel3i::::res://assets/sprites/brackeys/world_tileset.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://b56u2sno2petw::::res://assets/scenes/objects/ice_platform.tscn<>uid://c8n8fnv3vuyb4::::res://assets/scenes/objects/Spike Ball.tscn<>uid://b8xtf2jwhdefq::::res://assets/scenes/objects/killzone.tscn<>uid://bauyi7mlyhgwb::::res://assets/png/Background.png
+Menu.tscn::PackedScene::7927666109688455653::1747485000::0::1::::<><><>0<>0<><>::uid://bje088e0tywcc::::res://assets/png/PlayButton.png<>uid://dwihflvk1nekp::::res://scripts/touch_screen_button.gd<>uid://mivfepmjshsk::::res://assets/png/CARPEGE(summer version).png<>uid://buas35sf1ooyt::::res://assets/png/ServeyButton.png<>uid://c4ttb45yc7t60::::res://assets/png/YoutubeButton.png<>uid://bauyi7mlyhgwb::::res://assets/png/Background.png
+tutorial.tscn::PackedScene::235678222041407798::1747485000::0::1::::<><><>0<>0<><>::uid://cnr73mjv4kkc5::::res://assets/scenes/misc/playerV2.tscn<>uid://dhr4qohps2i0y::::res://assets/scenes/misc/tilemap1.tscn<>uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png<>uid://bfjr00d1apin4::::res://assets/scenes/main/button.tscn<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf<>uid://esj1d0nhkdpr::::res://assets/mobile_ui/up.png<>uid://dj3xjaj27dm11::::res://assets/mobile_ui/left.png<>uid://ytu17eeexccg::::res://assets/mobile_ui/right.png<>uid://bg434mdifhhny::::res://assets/png/signs.png<>uid://b56u2sno2petw::::res://assets/scenes/objects/ice_platform.tscn<>uid://b5rbiwaw7j0rr::::res://assets/sprites/handmade/knight_tutorial.png<>uid://duyejoiijj8eg::::res://assets/png/phone_icon.png<>uid://oo4ahcq0hjex::::res://assets/scenes/objects/exit_door.tscn<>uid://dgtff4jho58s5::::res://scripts/knight_tutorial.gd<>uid://b8xtf2jwhdefq::::res://assets/scenes/objects/killzone.tscn
+::res://assets/scenes/misc/::1747288132
+playerV2.tscn::PackedScene/PackedScene::5722384347674247050::1747288132::0::1::::<><><>0<>0<><>::uid://eg5dtpc3rwt4::::res://scripts/player.gd<>uid://6jytcxmquob5::::res://assets/sprites/handmade/knight_2.png<>uid://c1owhtksqe7i1::::res://assets/sprites/handmade/knight_1.png<>uid://r6ra2dlrfl06::::res://assets/sounds/sfx/sfx_step3.mp3<>uid://d362wmjekpky6::::res://assets/sounds/sfx/sfx_jump2.wav<>uid://hlia0xb2b0f2::::res://assets/sounds/sfx/sfx_landed2.wav<>uid://dfikpwb1r5fbc::::res://assets/sounds/sfx/sfx_death2.wav
 tilemap1.tscn::PackedScene/PackedScene::7687468490704441506::1743147106::0::1::::<><><>0<>0<><>::uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png
-::res://assets/scenes/objects/::1746179299
+::res://assets/scenes/objects/::1747397564
+exit_door.tscn::PackedScene/PackedScene::1013306263793238411::1747289034::0::1::::<><><>0<>0<><>::uid://p8o7b8iaytgh::::res://exit_door.gd
 ice_platform.tscn::PackedScene/PackedScene::4557345225676218964::1745685775::0::1::::<><><>0<>0<><>::uid://bybjruwsnulwg::::res://assets/sprites/brackeys/platforms.png
-obj_platform.tscn::PackedScene/PackedScene::6878684484067813597::1744461850::0::1::::<><><>0<>0<><>::uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png
+killzone.tscn::PackedScene/PackedScene::4751297196966381906::1747397564::0::1::::<><><>0<>0<><>::uid://dbwity14hbxv0::::res://scripts/killzone.gd
+obj_platform.tscn::PackedScene/PackedScene::6878684484067813597::1746793973::0::1::::<><><>0<>0<><>::uid://drg3g8anaq363::::res://assets/sprites/handmade/tilemap_1.png
 Spike Ball.tscn::PackedScene/PackedScene::7117923424520379087::1746179299::0::1::::<><><>0<>0<><>::uid://d3vklbe1jn0k0::::res://scripts/spike_ball.gd<>uid://curk50y1yvms1::::res://assets/sprites/Spiked Ball/Chain.png<>uid://drne6mr0uft6l::::res://assets/sprites/Spiked Ball/Spiked Ball.png
-::res://assets/scenes/UI/::1744824457
-pause_menu.tscn::PackedScene/PackedScene::6689871349922766093::1744824457::0::1::::<><><>0<>0<><>::uid://bto2wtxg1pa1a::::res://scripts/pause_menu.gd<>uid://cgbgoq077q22g::::res://assets/themes/PFO_2.tres<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
+::res://assets/scenes/UI/::1747289034
+pause_menu.tscn::PackedScene/PackedScene::6689871349922766093::1747289034::0::1::::<><><>0<>0<><>::uid://bto2wtxg1pa1a::::res://scripts/pause_menu.gd<>uid://cgbgoq077q22g::::res://assets/themes/PFO_2.tres<>uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
 ::res://assets/scenes/UI/squishy_toggle/::1744822279
 squishy_toggle.gd::GDScript/GDScript::8730075477073494307::1744821534::0::1::::<>CheckButton<><>0<>0<><>::
 squishy_toggle.tscn::PackedScene/PackedScene::6901724798899703803::1744822279::0::1::::<><><>0<>0<><>::uid://dwm6ckga7cs7l::::res://assets/scenes/UI/squishy_toggle/squishy_toggle.gd<>uid://bvbsmc8whinmv::::res://assets/scenes/UI/squishy_toggle/visuals/godot_head.png<>uid://pqn5vi3wf2hd::::res://assets/scenes/UI/squishy_toggle/visuals/godot_mouth_nose.png<>uid://4olkc5cfh02h::::res://assets/scenes/UI/squishy_toggle/visuals/eyes_off.png<>uid://dfnb6bjb255sn::::res://assets/scenes/UI/squishy_toggle/visuals/eyes_on.png
@@ -68,13 +75,14 @@ platforms.png::CompressedTexture2D/CompressedTexture2D::4073595205479929038::174
 slime_green.png::CompressedTexture2D/CompressedTexture2D::3026164129740714572::1743147106::1743147106::1::::<><><>0<>0<>b5c2d3fab0a65a763ae9d8b8db39538a<>res://.godot/imported/slime_green.png-69c80adc4a72743ff3cf9ee1df12eee8.ctex::
 slime_purple.png::CompressedTexture2D/CompressedTexture2D::94894991606528098::1743147106::1743147106::1::::<><><>0<>0<>dbc2137a7b7d455030bab958375d184f<>res://.godot/imported/slime_purple.png-bd9d4519aa475d07dd42141df6a9241f.ctex::
 world_tileset.png::CompressedTexture2D/CompressedTexture2D::4026376435772692108::1743147106::1743147106::1::::<><><>0<>0<>8d4cd6dfc0217171a203d5b657ae6ecd<>res://.godot/imported/world_tileset.png-4c2d8a8e294bf1fb38e8be1cd7bec222.ctex::
-::res://assets/sprites/handmade/::1745342841
+::res://assets/sprites/handmade/::1747128339
 girl_1.png::CompressedTexture2D/CompressedTexture2D::201533465050894899::1744389452::1744390329::1::::<><><>0<>0<>23084074acf319a20aeb6bcce3fdf0ce<>res://.godot/imported/girl_1.png-68ce99c6ec68e24c8a5250c252367844.ctex::
 girl_2.png::CompressedTexture2D/CompressedTexture2D::7570589445760454314::1744459114::1744459155::1::::<><><>0<>0<>9e6a1394124790b1fe518f9fa7885837<>res://.godot/imported/girl_2.png-5969f1a0a5b9e3553c98bcd1c1a795d7.ctex::
 girl_3.png::CompressedTexture2D/CompressedTexture2D::6551317233949360838::1744546759::1744819803::1::::<><><>0<>0<>ee7faf71e6f0b424aa2b02257d0ff69d<>res://.godot/imported/girl_3.png-e6463f93f9aab532114fdb4145e57292.ctex::
 icon.ico::OtherFile/OtherFile::-1::1743147106::0::1::::<><><>0<>0<><>::
 knight_1.png::CompressedTexture2D/CompressedTexture2D::6628001879161187850::1743147106::1743147106::1::::<><><>0<>0<>87abda69b535c441b33673957bd25a53<>res://.godot/imported/knight_1.png-c4e957a05308db8a4edf14e2cf5a5f5d.ctex::
 knight_2.png::CompressedTexture2D/CompressedTexture2D::2195924831620740696::1743147106::1743147106::1::::<><><>0<>0<>26fec090bdd8688409ad8ce7e9798911<>res://.godot/imported/knight_2.png-1a5dbc4960351dede4a5846ab67fe183.ctex::
+knight_tutorial.png::CompressedTexture2D/CompressedTexture2D::4527256574553522879::1747128338::1747128339::1::::<><><>0<>0<>d021014c8e88b94c43a5c8c82af59fce<>res://.godot/imported/knight_tutorial.png-e3f6e611ef23083b849604405c50404d.ctex::
 tilemap_1.png::CompressedTexture2D/CompressedTexture2D::8366571183872980298::1743147106::1743147106::1::::<><><>0<>0<>4ffe8b39d8d94730a02721ae3b910b23<>res://.godot/imported/tilemap_1.png-929d842c6abb0d7ca6eca82da09fc9ac.ctex::
 ::res://assets/sprites/handmade/UI_Elements/::1745343155
 ::res://assets/sprites/Spiked Ball/::1745735702
@@ -82,10 +90,11 @@ Chain.png::CompressedTexture2D/CompressedTexture2D::6212374757083970070::1745734
 Spiked Ball.png::CompressedTexture2D/CompressedTexture2D::8379608189015457085::1745734499::1745735702::1::::<><><>0<>0<>ddd9432905f74f807ff468c45d9395a7<>res://.godot/imported/Spiked Ball.png-c43ee661dcf6a8af5c6076dce83a6d36.ctex::
 ::res://assets/themes/::1744822272
 PFO_2.tres::Theme/Theme::5196428990530793544::1744822272::0::1::::<><><>0<>0<><>::uid://d0km5ihnwgpb8::::res://assets/font/SourceHanSansKR-Bold.otf
-::res://scripts/::1745944988
+::res://scripts/::1747397562
 bgm_manager.gd::GDScript/GDScript::6146494719269288079::1745734042::0::1::::<>Node<><>0<>0<><>::
+killzone.gd::GDScript/GDScript::7275388173385341911::1747397562::0::1::::<>Area2D<><>0<>0<><>::
+knight_tutorial.gd::GDScript/GDScript::7619932341586358518::1747287814::0::1::::<>Sprite2D<><>0<>0<><>::
 pause_menu.gd::GDScript/GDScript::3750589681425257484::1745734042::0::1::::<>CanvasLayer<><>0<>0<><>::
-player.gd::GDScript/GDScript::294969529485898307::1745734042::0::1::::<>CharacterBody2D<><>0<>0<><>::
-spike_ball.gd::GDScript/GDScript::9168528479336539785::1745944983::0::1::::<>AnimatableBody2D<><>0<>0<><>::
+player.gd::GDScript/GDScript::294969529485898307::1747288253::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+spike_ball.gd::GDScript/GDScript::9168528479336539785::1747287689::0::1::::<>AnimatableBody2D<><>0<>0<><>::
 touch_screen_button.gd::GDScript/GDScript::8720366191754742779::1745732476::0::1::::<>TouchScreenButton<><>0<>0<><>::
-touch_screen_button_임시용 .gd::GDScript/GDScript::5026556360263960248::1745944988::0::1::::<>TouchScreenButton<><>0<>0<><>::

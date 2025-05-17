@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://oo4ahcq0hjex"]
+
+[ext_resource type="Script" uid="uid://p8o7b8iaytgh" path="res://exit_door.gd" id="1_8grih"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mhf76"]
+size = Vector2(20, 64)
+
+[node name="ExitDoor" type="Area2D"]
+script = ExtResource("1_8grih")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(10, -32)
+shape = SubResource("RectangleShape2D_mhf76")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
