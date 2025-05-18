@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://6jytcxmquob5" path="res://assets/sprites/handmade/knight_2.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://c1owhtksqe7i1" path="res://assets/sprites/handmade/knight_1.png" id="3"]
 [ext_resource type="AudioStream" uid="uid://r6ra2dlrfl06" path="res://assets/sounds/sfx/sfx_step3.mp3" id="4"]
-[ext_resource type="AudioStream" uid="uid://d362wmjekpky6" path="res://assets/sounds/sfx/sfx_jump2.wav" id="5"]
-[ext_resource type="AudioStream" uid="uid://hlia0xb2b0f2" path="res://assets/sounds/sfx/sfx_landed2.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://cl5gxgxo0mk74" path="res://assets/sounds/sfx/점프.mp3" id="5_0vdwk"]
+[ext_resource type="AudioStream" uid="uid://cw5lgfrmtgcg4" path="res://assets/sounds/sfx/착지3.mp3" id="6_0vdwk"]
 [ext_resource type="AudioStream" uid="uid://dfikpwb1r5fbc" path="res://assets/sounds/sfx/sfx_death2.wav" id="7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kh5vq"]
@@ -238,13 +238,14 @@ volume_db = -5.0
 bus = &"SFX"
 
 [node name="ASP_Jumping" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("5")
-volume_db = -6.0
+stream = ExtResource("5_0vdwk")
+volume_db = 15.0
+pitch_scale = 2.8
 bus = &"SFX"
 
 [node name="ASP_Landed" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("6")
-volume_db = -5.0
+stream = ExtResource("6_0vdwk")
+volume_db = 15.0
 bus = &"SFX"
 
 [node name="ASP_Death" type="AudioStreamPlayer2D" parent="."]

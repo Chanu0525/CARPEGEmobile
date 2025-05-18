@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://dmft6jt5c2yk"]
+[gd_scene load_steps=26 format=3 uid="uid://dmft6jt5c2yk"]
 
 [ext_resource type="PackedScene" uid="uid://cnr73mjv4kkc5" path="res://assets/scenes/misc/playerV2.tscn" id="1_qctje"]
 [ext_resource type="PackedScene" uid="uid://dhr4qohps2i0y" path="res://assets/scenes/misc/tilemap1.tscn" id="2_hmdsm"]
@@ -207,19 +207,36 @@ font_size = 341
 font = ExtResource("5_hmdsm")
 font_size = 301
 
-[sub_resource type="Animation" id="Animation_4jxni"]
+[sub_resource type="Animation" id="Animation_717up"]
+resource_name = "Ending"
+length = 1.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6),
+"transitions": PackedFloat32Array(0.784584, 1, 1),
+"update": 0,
+"values": [Vector2(216, -1320), Vector2(216, -1354.51), Vector2(216, -1320)]
+}
+
+[sub_resource type="Animation" id="Animation_kllj4"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:visible")
+tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
+"update": 0,
+"values": [Vector2(216, -1320)]
 }
 
 [sub_resource type="Animation" id="Animation_b5lkg"]
@@ -253,14 +270,15 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_maa6a"]
 _data = {
-&"RESET": SubResource("Animation_4jxni"),
+&"Ending": SubResource("Animation_717up"),
+&"RESET": SubResource("Animation_kllj4"),
 &"Tutorial": SubResource("Animation_b5lkg")
 }
 
 [node name="Tutorial" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_qctje")]
-position = Vector2(-341, -4)
+position = Vector2(-365, -3)
 WALK_SPEED = 110.0
 
 [node name="TileMap" parent="." instance=ExtResource("2_hmdsm")]
@@ -463,7 +481,7 @@ collision_mask = 2
 
 [node name="KnightTutorial" type="Sprite2D" parent="."]
 modulate = Color(0.277528, 0.277528, 0.277528, 1)
-position = Vector2(116.217, -8)
+position = Vector2(216, -1320)
 texture = ExtResource("13_gfqim")
 script = ExtResource("14_gfqim")
 

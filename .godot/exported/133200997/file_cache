@@ -1,14 +1,18 @@
-res://assets/scenes/misc/playerV2.tscn::3a1eea18cbeb7830bcffbeb3cd080763::1745729555::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
+res://assets/scenes/misc/playerV2.tscn::a95f1e2cafd2f27a7e43296db9724fe9::1747536261::res://.godot/exported/133200997/export-2bfbd281f9021538d06fa000973de68d-playerV2.scn
 res://assets/scenes/misc/tilemap1.tscn::639fb159c066238e76f22491a9442d4a::1743147106::res://.godot/exported/133200997/export-a74a7766e032e2852d48ef743fcd6da5-tilemap1.scn
-res://assets/scenes/objects/obj_platform.tscn::bae88b14a9036f43d8fae401e88f5782::1744461850::res://.godot/exported/133200997/export-b17da73d7da123e5830e25c7fa9ca460-obj_platform.scn
-res://assets/scenes/UI/pause_menu.tscn::bbe57c233d3349c8cc7849ced2b8ae6d::1744824457::res://.godot/exported/133200997/export-d0f4d57f07afe079190304bf7a845c66-pause_menu.scn
+res://assets/scenes/objects/obj_platform.tscn::aacc1b60c39332f20be5f6a62a2cb981::1746793973::res://.godot/exported/133200997/export-b17da73d7da123e5830e25c7fa9ca460-obj_platform.scn
+res://assets/scenes/UI/pause_menu.tscn::bbe57c233d3349c8cc7849ced2b8ae6d::1747289034::res://.godot/exported/133200997/export-d0f4d57f07afe079190304bf7a845c66-pause_menu.scn
 res://assets/sounds/music/bgm_manager.tscn::8cdcc326b74e802bda29e90d700d5c6e::1744461850::res://.godot/exported/133200997/export-60f60736c38cdde642f2e67b7df1e304-bgm_manager.scn
 res://assets/themes/PFO_2.tres::fc73c4d1a6f3ec4b7ff8005c8ed6131c::1744822272::res://.godot/exported/133200997/export-bebe0ebc8189d341f724a712ad0bbb5e-PFO_2.res
 res://default_bus_layout.tres::9962d89f198d109faa9098708a7222e1::1743147106::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
-res://assets/scenes/main/button.tscn::9d46f3d284711549e8254a85e6ea6312::1744822102::res://.godot/exported/133200997/export-55ba7883b8e1c5280781024a1f3b9b2e-button.scn
-res://assets/scenes/main/game.tscn::b4df57e9fe43d301fe6e4d4ed73782a3::1746245234::res://.godot/exported/133200997/export-cf2f448476edd3f3cd68adf775b8d3fa-game.scn
-res://assets/scenes/main/Menu.tscn::986b28299d23e64ee992753084dac9f3::1746245285::res://.godot/exported/133200997/export-a112d1ef38e1e4959b1368e7e8d6eb2e-Menu.scn
-res://assets/scenes/main/tutorial.tscn::d388084d7c3945fb9f13038958e517ac::1746245237::res://.godot/exported/133200997/export-231084dd5c7b31e67497c878bba35d64-tutorial.scn
+res://assets/scenes/main/button.tscn::c93eb1ffbf59739f6efca529ffacb920::1746789892::res://.godot/exported/133200997/export-55ba7883b8e1c5280781024a1f3b9b2e-button.scn
+res://assets/scenes/main/game.tscn::eb5a8ba52a0a56eb9a568ac996533b61::1747536261::res://.godot/exported/133200997/export-cf2f448476edd3f3cd68adf775b8d3fa-game.scn
+res://assets/scenes/main/Menu.tscn::f0f6a4c8ac89d4818166d9396d3d819c::1747536307::res://.godot/exported/133200997/export-a112d1ef38e1e4959b1368e7e8d6eb2e-Menu.scn
+res://assets/scenes/main/tutorial.tscn::6b5d09528f94876c61475b9b1373021f::1747536261::res://.godot/exported/133200997/export-231084dd5c7b31e67497c878bba35d64-tutorial.scn
 res://assets/scenes/UI/squishy_toggle/squishy_toggle.tscn::6c20ea48f395df970efc8fbe5f4ca919::1744822279::res://.godot/exported/133200997/export-0d57c05e13d502ec858ff9995a36cc1a-squishy_toggle.scn
 res://assets/scenes/objects/ice_platform.tscn::b1a5eaf9d1c6960c5f38a1c9486e046b::1745685775::res://.godot/exported/133200997/export-62062d881052c4e95847b42fc6708927-ice_platform.scn
 res://assets/scenes/objects/Spike Ball.tscn::bec840a9d02acb9269cd05eb7914c9a3::1746179299::res://.godot/exported/133200997/export-e6045cf115f85d151ca139412924298c-Spike Ball.scn
+res://assets/scenes/objects/exit_door.tscn::fd6e93cbf4ae3608100a38ee82eb617b::1747289034::res://.godot/exported/133200997/export-426351624dcce30b652054dac9515db0-exit_door.scn
+res://assets/scenes/objects/killzone.tscn::d20a96d7062766d51fadfbd001bd3b57::1747397564::res://.godot/exported/133200997/export-3db2f0541629aa59ab0e6a4883e5981d-killzone.scn
+res://assets/scenes/main/Ending.tscn::10ce855138f715b303dcf6e578fd5b73::1747536261::res://.godot/exported/133200997/export-55859f144f2a8f54009781bc61ceedd0-Ending.scn
+res://assets/scenes/objects/mov_platform.tscn::ec8f19022cf5cb9c7ff59198a9e7c05e::1747487373::res://.godot/exported/133200997/export-ee49102c7b5ebdfb94336bce66a176ab-mov_platform.scn

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dk7hrc8n25asb"]
+[gd_scene load_steps=10 format=3 uid="uid://dk7hrc8n25asb"]
 
 [ext_resource type="Texture2D" uid="uid://bje088e0tywcc" path="res://assets/png/PlayButton.png" id="1_t2yho"]
 [ext_resource type="Script" uid="uid://dwihflvk1nekp" path="res://scripts/touch_screen_button.gd" id="2_t2yho"]
@@ -6,6 +6,12 @@
 [ext_resource type="Texture2D" uid="uid://buas35sf1ooyt" path="res://assets/png/ServeyButton.png" id="4_1y5np"]
 [ext_resource type="Texture2D" uid="uid://c4ttb45yc7t60" path="res://assets/png/YoutubeButton.png" id="5_8p5ov"]
 [ext_resource type="Texture2D" uid="uid://bauyi7mlyhgwb" path="res://assets/png/Background.png" id="6_1y5np"]
+[ext_resource type="FontFile" uid="uid://d0km5ihnwgpb8" path="res://assets/font/SourceHanSansKR-Bold.otf" id="7_8p5ov"]
+[ext_resource type="Texture2D" uid="uid://es85gyxv7ymo" path="res://assets/png/ByMIS.png" id="7_mlmqa"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mlmqa"]
+font = ExtResource("7_8p5ov")
+font_size = 25
 
 [node name="GameStart" type="Node2D"]
 position = Vector2(-1, 0)
@@ -40,7 +46,7 @@ scale = Vector2(0.304, 0.321)
 texture_normal = ExtResource("4_1y5np")
 
 [node name="Servey" type="LinkButton" parent="CanvasLayer/HBoxContainer/ServeyButton"]
-anchors_preset = -1
+anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -72,6 +78,21 @@ uri = "https://www.youtube.com/playlist?list=PLB_0yxBhUg5t__71uRfcT7hSSOWaE6PD0"
 
 [node name="Background" type="Sprite2D" parent="CanvasLayer/HBoxContainer"]
 show_behind_parent = true
-position = Vector2(-42, -97)
+position = Vector2(-39, -97)
 scale = Vector2(1.37646, 1.37646)
 texture = ExtResource("6_1y5np")
+
+[node name="ByMis" type="Sprite2D" parent="CanvasLayer/HBoxContainer"]
+position = Vector2(288, 493)
+scale = Vector2(0.123073, 0.113633)
+texture = ExtResource("7_mlmqa")
+
+[node name="Label2" type="Label" parent="CanvasLayer"]
+offset_left = 462.0
+offset_top = 1251.0
+offset_right = 719.0
+offset_bottom = 1276.0
+text = "2025 매산고 팀프로젝트"
+label_settings = SubResource("LabelSettings_mlmqa")
+horizontal_alignment = 1
+vertical_alignment = 1
